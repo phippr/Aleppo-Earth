@@ -23,7 +23,7 @@
   endif
 -%}
 
-<div class="multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
+<div class="multicolumn{% if section.settings.title == blank %} no-heading{% endif %}">
   <div
     class="page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if settings.animations_reveal_on_scroll %}
@@ -32,9 +32,9 @@
   >
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
-        <h2 class="title inline-richtext {{ section.settings.heading_size }}">
+        <{{ section.settings.heading_size }} class="title inline-richtext">
           {{ section.settings.title }}
-        </h2>
+        </{{ section.settings.heading_size }}>
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
           <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">
             {{- section.settings.button_label | escape -}}
@@ -209,24 +209,46 @@
       "label": "t:sections.multicolumn.settings.title.label"
     },
     {
+      "type": "color",
+      "id": "heading_colour",
+      "label": "Heading Colour",
+      "default": "#000000"
+    },
+    {
       "type": "select",
       "id": "heading_size",
       "options": [
         {
-          "value": "h2",
-          "label": "t:sections.all.heading_size.options__1.label"
-        },
-        {
           "value": "h1",
-          "label": "t:sections.all.heading_size.options__2.label"
+          "label": "Heading 1"
         },
         {
-          "value": "h0",
-          "label": "t:sections.all.heading_size.options__3.label"
+          "value": "h2",
+          "label": "Heading 2"
+        },
+        {
+          "value": "h3",
+          "label": "Heading 3"
         }
       ],
       "default": "h1",
-      "label": "t:sections.all.heading_size.label"
+      "label": "Heading Size"
+    },
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Centre"
+        }
+      ],
+      "default": "center",
+      "label": "Heading Alignment"
     },
     {
       "type": "richtext",
@@ -234,24 +256,46 @@
       "label": "t:sections.featured-collection.settings.description.label"
     },
     {
+      "type": "color",
+      "id": "description_colour",
+      "label": "Description Colour",
+      "default": "#000000"
+    },
+    {
       "type": "select",
-      "id": "description_style",
-      "label": "t:sections.featured-collection.settings.description_style.label",
+      "id": "description_size",
       "options": [
         {
-          "value": "body",
-          "label": "t:sections.featured-collection.settings.description_style.options__1.label"
+          "value": "h3",
+          "label": "Heading 3"
         },
         {
-          "value": "subtitle",
-          "label": "t:sections.featured-collection.settings.description_style.options__2.label"
+          "value": "h4",
+          "label": "Heading 4"
         },
         {
-          "value": "uppercase",
-          "label": "t:sections.featured-collection.settings.description_style.options__3.label"
+          "value": "p",
+          "label": "Paragraph"
         }
       ],
-      "default": "body"
+      "default": "p",
+      "label": "Description Size"
+    },
+    {
+      "type": "select",
+      "id": "description_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Centre"
+        }
+      ],
+      "default": "center",
+      "label": "Description Alignment"
     },
     {
       "type": "select",
@@ -354,12 +398,6 @@
       "id": "background_colour",
       "label": "Background Colour",
       "default": "#ffffff"
-    },
-    {
-      "type": "color_scheme",
-      "id": "color_scheme",
-      "label": "t:sections.all.colors.label",
-      "default": "scheme-1"
     },
     {
       "type": "header",
