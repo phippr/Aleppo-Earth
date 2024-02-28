@@ -47,3 +47,39 @@ h4 {
 .title {
   width: 100%;
 }
+
+/* ### MULTICOLUMN ### */
+
+.multicolumn-card__info {
+  padding: 1.5rem 0.5rem 0 0.5rem;
+}
+
+.multicolumn-card-spacing {
+  padding: 0 0.5rem 0 0.5rem;
+  margin: 0;
+}
+
+.collection__description {
+  margin-bottom: 2rem;
+  max-width: 75ch;
+  margin: 0 auto 3rem auto;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.page-width.section-template--16631866065092__multicolumn_cUeGpB-padding {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.multicolumn {
+  margin: 2.5rem 0;
+}
+
+@media screen and (min-width: 750px) {
+  .multicolumn {
+    margin: 5rem 0;
+  }
+}
+
+/* ### MULTICOLUMN ### */
