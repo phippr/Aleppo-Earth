@@ -9,7 +9,7 @@
   endif
 -%}
 
-<div class="multicolumn{% if section.settings.title == blank %} no-heading{% endif %}">
+<div class="multicolumn{% if section.settings.title == blank %} no-heading{% endif %}" style="background-color:{{ section.settings.background_colour }};">
   <div
     class="page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if settings.animations_reveal_on_scroll %}
@@ -167,7 +167,7 @@
     <div class="center{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
       {%- if section.settings.button_label != blank -%}
         <a
-          class="button button--primary"
+          class="button button--primary {% if section.settings.button_style == 'outline'%}button--outline{% else %}button-solid{% endif %}"
           {% if section.settings.button_link == blank %}
             role="link" aria-disabled="true"
           {% else %}
@@ -190,6 +190,12 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "color",
+      "id": "background_colour",
+      "label": "Background Colour",
+      "default": "transparent"
+    },
     {
       "type": "inline_richtext",
       "id": "title",
@@ -350,10 +356,20 @@
       "label": "t:sections.multicolumn.settings.button_link.label"
     },
     {
-      "type": "color",
-      "id": "background_colour",
-      "label": "Background Colour",
-      "default": "#ffffff"
+      "type": "select",
+      "id": "button_style",
+      "options": [
+        {
+          "value": "solid",
+          "label": "Solid"
+        },
+        {
+          "value": "outline",
+          "label": "Outliine"
+        }
+      ],
+      "default": "solid",
+      "label": "Button Style"
     },
     {
       "type": "header",

@@ -54,6 +54,10 @@ h4 {
     margin: 0;
   }
 
+  .title-wrapper-with-link {
+    margin: 0;
+  }
+
   .description {
     margin-bottom: 2rem;
     max-width: 75ch;
@@ -63,7 +67,8 @@ h4 {
   }
 
   .multicolumn {
-    margin: 2.5rem 0;
+    padding: 2.5rem 0;
+    margin: 0;
 
     .page-width {
       display: flex;
@@ -71,13 +76,30 @@ h4 {
       align-items: center;
       gap: 3rem;
     }
+
+    .button {
+      margin-top: 0;
+      padding: 1rem;
+    }
+
+    .button--solid {
+      background-color: #141414;
+      color: #fff;
+      border: none;
+    }
+
+    .button--outline {
+      border: 1px solid #141414;
+      color: #141414;
+      background-color: transparent;
+    }
   }
 }
 
 @media screen and (min-width: 750px) {
   .aleppo {
     .multicolumn {
-      margin: 5rem 0;
+      padding: 5rem 0;
     }
   }
 }
