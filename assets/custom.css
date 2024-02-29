@@ -42,7 +42,7 @@ h4 {
 }
 
 .button {
-  font: normal 500 0.75rem/1.5 Indivisible, Helvtica, Arial, sans-serif !important;
+  font: normal 500 0.75rem/1 Indivisible, Helvtica, Arial, sans-serif !important;
   text-transform: uppercase;
 }
 
@@ -77,9 +77,15 @@ h4 {
   margin-top: 0;
   padding: 1.2rem 1.5rem;
   min-height: 0;
+  transition: box-shadow 0.1s ease-in-out;
 }
 .aleppo .multicolumn .button:hover {
-  transform: none;
+  transform: none !important;
+  box-shadow: 1px 10px 24px 1px rgba(0, 0, 0, 0.21);
+}
+.aleppo .multicolumn .button:hover:after {
+  --border-offset: 0;
+  box-shadow: none;
 }
 .aleppo .multicolumn .button--solid {
   background-color: #141414;
