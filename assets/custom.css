@@ -46,9 +46,6 @@ h4 {
   text-transform: uppercase;
 }
 
-.aleppo .title {
-  width: 100%;
-}
 .aleppo .multicolumn-card__info {
   padding: 1.5rem 0.5rem 0 0.5rem;
 }
@@ -56,19 +53,21 @@ h4 {
   padding: 0 0.5rem 0 0.5rem;
   margin: 0;
 }
-.aleppo .collection__description {
+.aleppo .description {
   margin-bottom: 2rem;
   max-width: 75ch;
-  margin: 0 auto 3rem auto;
+  margin: 0 auto;
   text-align: center;
   padding: 0 1rem;
 }
-.aleppo .page-width.section-template--16631866065092__multicolumn_cUeGpB-padding {
-  padding-top: 0;
-  padding-bottom: 0;
-}
 .aleppo .multicolumn {
   margin: 2.5rem 0;
+}
+.aleppo .multicolumn .page-width {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
 }
 
 @media screen and (min-width: 750px) {

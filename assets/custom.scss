@@ -45,10 +45,6 @@ h4 {
 }
 
 .aleppo {
-  .title {
-    width: 100%;
-  }
-
   .multicolumn-card__info {
     padding: 1.5rem 0.5rem 0 0.5rem;
   }
@@ -58,21 +54,23 @@ h4 {
     margin: 0;
   }
 
-  .collection__description {
+  .description {
     margin-bottom: 2rem;
     max-width: 75ch;
-    margin: 0 auto 3rem auto;
+    margin: 0 auto;
     text-align: center;
     padding: 0 1rem;
   }
 
-  .page-width.section-template--16631866065092__multicolumn_cUeGpB-padding {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
   .multicolumn {
     margin: 2.5rem 0;
+
+    .page-width {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+    }
   }
 }
 

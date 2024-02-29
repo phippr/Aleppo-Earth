@@ -18,7 +18,7 @@
   >
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
-        <{{ section.settings.heading_size }} class="title inline-richtext" style="text-align:{{ section.settings.heading_alignment }}; color:{{ section.settings.heading_colour }}">
+        <{{ section.settings.heading_size }} class="title inline-richtext" style="color:{{ section.settings.heading_colour }}">
           {{ section.settings.title }}
         </{{ section.settings.heading_size }}>
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
@@ -29,8 +29,8 @@
       </div>
     {%- endunless -%}
     {%- if section.settings.description != blank -%}
-      <div class="collection__description {{ section.settings.description_style }} rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-          <{{ section.settings.description_size }} style="text-align:{{ section.settings.description_alignment }}; color:{{ section.settings.description_colour }}">
+      <div class="description {{ section.settings.description_style }} rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          <{{ section.settings.description_size }} style="color:{{ section.settings.description_colour }}">
           {{ section.settings.description -}}
           </{{ section.settings.description_size }}>
       </div>
