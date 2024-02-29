@@ -188,7 +188,7 @@
         "background_style": "primary",
         "button_label": "Explore all Products",
         "button_link": "shopify:\/\/collections\/all",
-        "button_style": "solid",
+        "button_style": "outline",
         "columns_mobile": "2",
         "swipe_on_mobile": false
       }
