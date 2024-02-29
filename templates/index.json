@@ -174,6 +174,7 @@
         "column_RFGaaY"
       ],
       "settings": {
+        "background_colour": "rgba(0,0,0,0)",
         "title": "Product Highlights",
         "heading_colour": "{{ shop.brand.colors.secondary[0].foreground }}",
         "heading_size": "h1",
@@ -187,7 +188,7 @@
         "background_style": "primary",
         "button_label": "Explore all Products",
         "button_link": "shopify:\/\/collections\/all",
-        "background_colour": "#ffffff",
+        "button_style": "solid",
         "columns_mobile": "2",
         "swipe_on_mobile": false
       }
