@@ -79,7 +79,12 @@ h4 {
 
     .button {
       margin-top: 0;
-      padding: 1rem;
+      padding: 1.2rem 1.5rem;
+      min-height: 0;
+    }
+
+    .button:hover {
+      transform: none;
     }
 
     .button--solid {

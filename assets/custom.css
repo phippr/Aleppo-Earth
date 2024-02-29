@@ -75,7 +75,11 @@ h4 {
 }
 .aleppo .multicolumn .button {
   margin-top: 0;
-  padding: 1rem;
+  padding: 1.2rem 1.5rem;
+  min-height: 0;
+}
+.aleppo .multicolumn .button:hover {
+  transform: none;
 }
 .aleppo .multicolumn .button--solid {
   background-color: #141414;
