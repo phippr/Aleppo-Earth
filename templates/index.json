@@ -177,23 +177,19 @@
         "title": "Product Highlights",
         "heading_colour": "{{ shop.brand.colors.secondary[0].foreground }}",
         "heading_size": "h1",
-        "heading_alignment": "center",
         "description": "Quality is never an accident. It is always the result of intelligent effort. We spend most of our time and energy for good design and to achieve high quality. Every single detail from material to technique is thought through with obsessive attention. If our product doesn't satisfy you, we'll take it back.",
         "description_colour": "{{ shop.brand.colors.secondary[0].foreground }}",
         "description_size": "p",
-        "description_alignment": "center",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "Explore all Products",
+        "button_link": "shopify:\/\/collections\/all",
         "background_colour": "#ffffff",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 32,
-        "padding_bottom": 32
+        "swipe_on_mobile": false
       }
     }
   },
