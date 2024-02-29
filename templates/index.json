@@ -177,7 +177,7 @@
         "background_colour": "rgba(0,0,0,0)",
         "title": "Product Highlights",
         "heading_colour": "{{ shop.brand.colors.secondary[0].foreground }}",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "Quality is never an accident. It is always the result of intelligent effort. We spend most of our time and energy for good design and to achieve high quality. Every single detail from material to technique is thought through with obsessive attention. If our product doesn't satisfy you, we'll take it back.",
         "description_colour": "{{ shop.brand.colors.secondary[0].foreground }}",
         "description_size": "p",
