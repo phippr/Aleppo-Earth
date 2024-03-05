@@ -102,20 +102,14 @@
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
-            <{{ block.settings.heading_size }} class="title inline-richtext" style="color:{{ section.settings.colour }}">
+            <{{ block.settings.heading_size }} class="banner__heading title inline-richtext" style="color:{{ section.settings.colour }}"  {{ block.shopify_attributes }}>
               {{ block.settings.heading }}
               </{{ block.settings.heading_size }}>
-              <h1 class="banner__heading inline-richtext {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-                {{ block.settings.heading }}
-              </h1>
             {%- when 'text' -%}
-              <div class="description rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+              <div class="banner__text description rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {{ block.shopify_attributes }}>
                 <{{ block.settings.description_size }} style="color:{{ section.settings.colour }}">
                   {{ block.settings.text -}}
                   </{{ block.settings.description_size }}>
-                </div>
-                <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-                  <h4>{{ block.settings.text }}</h4>
                 </div>
               {%- when 'buttons' -%}
                 <div class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
