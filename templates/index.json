@@ -22,10 +22,12 @@
           "settings": {
             "button_label_1": "Explore all Products",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_1": "outline",
+            "button_style_1": "solid",
+            "button_colour_1": "light",
             "button_label_2": "Test",
             "button_link_2": "shopify:\/\/pages\/contact",
-            "button_style_2": "solid"
+            "button_style_2": "outline",
+            "button_colour_2": "light"
           }
         }
       },
@@ -99,9 +101,11 @@
             "button_label_1": "Button label",
             "button_link_1": "",
             "button_style_1": "solid",
+            "button_colour_1": "dark",
             "button_label_2": "Button label",
             "button_link_2": "",
-            "button_style_2": "solid"
+            "button_style_2": "solid",
+            "button_colour_2": "dark"
           }
         }
       },
