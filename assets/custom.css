@@ -48,8 +48,10 @@ h4 a {
   text-transform: uppercase;
 }
 
+#FacetFiltersForm *,
 .card-information * {
-  font-size: 0.875rem !important;
+  font: normal 500 0.875rem/1.5 Indivisible, Helvtica, Arial, sans-serif !important;
+  text-transform: uppercase;
 }
 
 .aleppo {
@@ -202,6 +204,9 @@ h4 a {
 .aleppo .banner__box.width-large {
   min-width: 0 !important;
   width: 70% !important;
+}
+.aleppo .collection-hero__title {
+  text-align: center;
 }
 
 @media screen and (min-width: 750px) {
