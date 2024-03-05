@@ -109,7 +109,8 @@ h4 {
   background-color: transparent;
   opacity: 1 !important;
 }
-.aleppo .multicolumn {
+.aleppo .multicolumn,
+.aleppo .featured-collection {
   padding: 2.5rem 0;
   margin: 0;
 }
@@ -188,7 +189,8 @@ h4 {
 }
 
 @media screen and (min-width: 750px) {
-  .aleppo .multicolumn {
+  .aleppo .multicolumn,
+  .aleppo .featured-collection {
     padding: 5rem 0;
   }
   .aleppo .banner--content-align-center .banner__buttons--multiple > * {
