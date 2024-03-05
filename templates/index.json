@@ -57,7 +57,7 @@
         "title": "Featured products",
         "colour": "#000000",
         "heading_size": "h2",
-        "description": "<p>Exploring the ancient self-care and wellness practices of Aleppo offers a profound connection to the past while providing a pathway to a more balanced and nourished present.<\/p>",
+        "description": "Exploring the ancient self-care and wellness practices of Aleppo offers a profound connection to the past while providing a pathway to a more balanced and nourished present.",
         "show_description": false,
         "description_size": "p",
         "collection": "frontpage",
@@ -86,25 +86,25 @@
         "heading_iAtP9M": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Brand Story",
             "heading_size": "h1"
           }
         },
         "text_ar6Hcr": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "description_size": "p"
+            "text": "Quality is never an accident. It is always the result of intelligent effort. We spend most of our time and energy for good design and to achieve high quality. Every single detail from material to technique is thought through with obsessive attention. If our product doesn't satisfy you, we'll take it back.",
+            "description_size": "h3"
           }
         },
         "buttons_mxmTcr": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "",
             "button_link_1": "",
             "button_style_1": "solid",
             "button_colour_1": "dark",
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_2": "solid",
             "button_colour_2": "dark"
@@ -117,13 +117,14 @@
         "buttons_mxmTcr"
       ],
       "settings": {
-        "image_overlay_opacity": 0,
+        "image": "shopify:\/\/shop_images\/story_bg.jpg",
+        "image_overlay_opacity": 50,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "colour": "#000000",
-        "content_width": "medium",
+        "colour": "{{ shop.brand.colors.primary[0].foreground }}",
+        "content_width": "large",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
