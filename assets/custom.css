@@ -46,6 +46,9 @@ h4 {
   text-transform: uppercase;
 }
 
+.aleppo {
+  background-color: #f9f6ef;
+}
 .aleppo .multicolumn-card__info {
   padding: 1.5rem 0.5rem 0 0.5rem;
 }
@@ -55,11 +58,12 @@ h4 {
 }
 .aleppo .title-wrapper-with-link {
   margin: 0;
+  padding: 0 1rem;
 }
 .aleppo .description {
   margin-bottom: 2rem;
   max-width: 75ch;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
   padding: 0 1rem;
 }
