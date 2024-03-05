@@ -228,6 +228,15 @@ h4 a {
   .collection-hero__title {
     text-align: center;
   }
+
+  .facets__display,
+  .field__input,
+  .select__select,
+  .customer .field input,
+  .customer select,
+  .facets__header {
+    background-color: #f9f6ef;
+  }
 }
 
 @media screen and (min-width: 750px) {
