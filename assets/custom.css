@@ -68,7 +68,7 @@ h4 {
   padding: 0 1rem;
 }
 .aleppo .button {
-  margin-top: 0;
+  margin-top: 0 !important;
   padding: 1.2rem 1.5rem;
   min-height: 0;
   transition: all 0.2s ease-out !important;
@@ -113,11 +113,17 @@ h4 {
   padding: 2.5rem 0;
   margin: 0;
 }
+.aleppo .multicolumn-card {
+  background-color: transparent !important;
+}
 .aleppo .content-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 3rem;
+}
+.aleppo .content-section > * {
+  margin: 0 !important;
 }
 .aleppo .banner__box {
   display: flex;
