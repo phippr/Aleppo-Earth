@@ -102,7 +102,7 @@
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
-            <{{ block.settings.heading_size }} class="title inline-richtext" style="color:{{ block.settings.colour }}">
+            <{{ block.settings.heading_size }} class="title inline-richtext" style="color:{{ section.settings.colour }}">
               {{ block.settings.heading }}
               </{{ block.settings.heading_size }}>
               <h1 class="banner__heading inline-richtext {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
@@ -110,7 +110,7 @@
               </h1>
             {%- when 'text' -%}
               <div class="description rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-                <{{ block.settings.description_size }} style="color:{{ block.settings.colour }}">
+                <{{ block.settings.description_size }} style="color:{{ section.settings.colour }}">
                   {{ block.settings.text -}}
                   </{{ block.settings.description_size }}>
                 </div>
@@ -413,11 +413,6 @@
                 "label": "Button Style"
               },
               {
-                "type": "checkbox",
-                "id": "button_style_secondary_1",
-                "default": false,
-                "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_1.label"
-              }, {
                 "type": "text",
                 "id": "button_label_2",
                 "default": "Button label",
@@ -441,11 +436,6 @@
                 ],
                 "default": "solid",
                 "label": "Button Style"
-              }, {
-                "type": "checkbox",
-                "id": "button_style_secondary_2",
-                "default": false,
-                "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_2.label"
               }
             ]
           }
