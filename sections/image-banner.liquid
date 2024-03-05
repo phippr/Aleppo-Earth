@@ -115,7 +115,7 @@
                 <div class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
                   {%- if block.settings.button_label_1 != blank -%}
                     <a
-                      class="button button--primary {% if block.settings.button_style_1 == 'outline'%}button--outline{% else %}button--solid{% endif %}"
+                      class="button button--primary {% if block.settings.button_style_1 == 'outline'%}button--outline{% else %}button--solid{% endif %} {{ block.settings.button_colour_1 }}"
                       {% if block.settings.button_link_1 == blank %}
                       role="link"
                       aria-disabled="true"
@@ -127,7 +127,7 @@
                   {%- endif -%}
                   {%- if block.settings.button_label_2 != blank -%}
                     <a
-                      class="button button--primary {% if block.settings.button_style_2 == 'outline'%}button--outline{% else %}button--solid{% endif %}"
+                      class="button button--primary {% if block.settings.button_style_2 == 'outline'%}button--outline{% else %}button--solid{% endif %} {{ block.settings.button_colour_2 }}"
                       {% if block.settings.button_link_2 == blank %}
                       role="link"
                       aria-disabled="true"
@@ -403,6 +403,20 @@
                 "label": "Button Style"
               },
               {
+                "type": "select",
+                "id": "button_colour_1",
+                "options": [
+                  {
+                    "value": "light",
+                    "label": "Light"
+                  }, {
+                    "value": "dark",
+                    "label": "Dark"
+                  }
+                ],
+                "default": "dark",
+                "label": "Button Colour"
+              }, {
                 "type": "text",
                 "id": "button_label_2",
                 "default": "Button label",
@@ -426,6 +440,20 @@
                 ],
                 "default": "solid",
                 "label": "Button Style"
+              }, {
+                "type": "select",
+                "id": "button_colour_2",
+                "options": [
+                  {
+                    "value": "light",
+                    "label": "Light"
+                  }, {
+                    "value": "dark",
+                    "label": "Dark"
+                  }
+                ],
+                "default": "dark",
+                "label": "Button Colour"
               }
             ]
           }
