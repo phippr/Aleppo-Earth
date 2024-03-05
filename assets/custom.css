@@ -67,6 +67,36 @@ h4 {
   text-align: center;
   padding: 0 1rem;
 }
+.aleppo .button {
+  margin-top: 0;
+  padding: 1.2rem 1.5rem;
+  min-height: 0;
+  transition: all 0.15s ease-out !important;
+  --border-offset: 0 !important;
+}
+.aleppo .button:after {
+  --border-offset: 0 !important;
+}
+.aleppo .button:hover {
+  transform: none !important;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15) !important;
+  padding: 1.25rem 1.55rem;
+  margin-bottom: -0.1rem !important;
+}
+.aleppo .button:hover:after {
+  --border-offset: 0;
+  box-shadow: none;
+}
+.aleppo .button--solid {
+  background-color: #141414;
+  color: #fff;
+  border: none;
+}
+.aleppo .button--outline {
+  border: 1px solid #141414;
+  color: #141414;
+  background-color: transparent;
+}
 .aleppo .multicolumn {
   padding: 2.5rem 0;
   margin: 0;
@@ -76,36 +106,6 @@ h4 {
   flex-direction: column;
   align-items: center;
   gap: 3rem;
-}
-.aleppo .multicolumn .button {
-  margin-top: 0;
-  padding: 1.2rem 1.5rem;
-  min-height: 0;
-  transition: all 0.15s ease-out !important;
-  --border-offset: 0 !important;
-}
-.aleppo .multicolumn .button:after {
-  --border-offset: 0 !important;
-}
-.aleppo .multicolumn .button:hover {
-  transform: none !important;
-  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.25) !important;
-  padding: 1.25rem 1.55rem;
-  margin-bottom: -0.1rem !important;
-}
-.aleppo .multicolumn .button:hover:after {
-  --border-offset: 0;
-  box-shadow: none;
-}
-.aleppo .multicolumn .button--solid {
-  background-color: #141414;
-  color: #fff;
-  border: none;
-}
-.aleppo .multicolumn .button--outline {
-  border: 1px solid #141414;
-  color: #141414;
-  background-color: transparent;
 }
 
 @media screen and (min-width: 750px) {
