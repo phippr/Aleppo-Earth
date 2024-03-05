@@ -115,26 +115,26 @@
                 <div class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
                   {%- if block.settings.button_label_1 != blank -%}
                     <a
-                      class="button button--primary {% if section.settings.button_style_1 == 'outline'%}button--outline{% else %}button--solid{% endif %}"
-                      {% if section.settings.button_link_1 == blank %}
+                      class="button button--primary {% if block.settings.button_style_1 == 'outline'%}button--outline{% else %}button--solid{% endif %}"
+                      {% if block.settings.button_link_1 == blank %}
                       role="link"
                       aria-disabled="true"
                       {% else %}
-                      href="{{ section.settings.button_link_1 }}"
+                      href="{{ block.settings.button_link_1 }}"
                       {% endif %}>
-                      {{ section.settings.button_label_1 | escape }}
+                      {{ block.settings.button_label_1 | escape }}
                     </a>
                   {%- endif -%}
                   {%- if block.settings.button_label_2 != blank -%}
                     <a
-                      class="button button--primary {% if section.settings.button_style_2 == 'outline'%}button--outline{% else %}button--solid{% endif %}"
-                      {% if section.settings.button_link_2 == blank %}
+                      class="button button--primary {% if block.settings.button_style_2 == 'outline'%}button--outline{% else %}button--solid{% endif %}"
+                      {% if block.settings.button_link_2 == blank %}
                       role="link"
                       aria-disabled="true"
                       {% else %}
-                      href="{{ section.settings.button_link_2 }}"
+                      href="{{ block.settings.button_link_2 }}"
                       {% endif %}>
-                      {{ section.settings.button_label_2 | escape }}
+                      {{ block.settings.button_label_2 | escape }}
                     </a>
 
                   {%- endif -%}
