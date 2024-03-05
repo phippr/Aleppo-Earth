@@ -22,9 +22,11 @@
           "settings": {
             "button_label_1": "Explore all Products",
             "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_1": "solid",
             "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_2": "Test",
+            "button_link_2": "shopify:\/\/pages\/contact",
+            "button_style_2": "solid",
             "button_style_secondary_2": false
           }
         }
@@ -41,7 +43,7 @@
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-8db8e4ef-de84-42d5-8f31-5f903cee768b",
+        "colour": "{{ shop.brand.colors.primary[0].foreground }}",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
@@ -98,9 +100,11 @@
           "settings": {
             "button_label_1": "Button label",
             "button_link_1": "",
+            "button_style_1": "solid",
             "button_style_secondary_1": false,
             "button_label_2": "Button label",
             "button_link_2": "",
+            "button_style_2": "solid",
             "button_style_secondary_2": false
           }
         }
@@ -116,7 +120,7 @@
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "colour": "#000000",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -176,10 +180,9 @@
       "settings": {
         "background_colour": "rgba(0,0,0,0)",
         "title": "Product Highlights",
-        "heading_colour": "{{ shop.brand.colors.secondary[0].foreground }}",
+        "colour": "#000000",
         "heading_size": "h2",
         "description": "Quality is never an accident. It is always the result of intelligent effort. We spend most of our time and energy for good design and to achieve high quality. Every single detail from material to technique is thought through with obsessive attention. If our product doesn't satisfy you, we'll take it back.",
-        "description_colour": "{{ shop.brand.colors.secondary[0].foreground }}",
         "description_size": "p",
         "image_width": "full",
         "image_ratio": "adapt",
