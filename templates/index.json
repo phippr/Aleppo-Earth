@@ -87,7 +87,8 @@
           "type": "heading",
           "settings": {
             "heading": "Brand Story",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "icon": "shopify:\/\/shop_images\/icon.png"
           }
         },
         "text_ar6Hcr": {
