@@ -91,21 +91,25 @@ h4 {
   background-color: #f9f6ef;
   color: #141414;
   border: none;
+  opacity: 1 !important;
 }
 .aleppo .button--solid.dark {
   background-color: #141414;
   color: #fff;
   border: none;
+  opacity: 1 !important;
 }
 .aleppo .button--outline.light {
   border: 1px solid #f9f6ef;
   color: #f9f6ef;
   background-color: transparent;
+  opacity: 1 !important;
 }
 .aleppo .button--outline.dark {
   border: 1px solid #141414;
   color: #141414;
   background-color: transparent;
+  opacity: 1 !important;
 }
 .aleppo .multicolumn {
   padding: 2.5rem 0;
@@ -121,5 +125,8 @@ h4 {
 @media screen and (min-width: 750px) {
   .aleppo .multicolumn {
     padding: 5rem 0;
+  }
+  .aleppo .banner--content-align-center .banner__buttons--multiple > * {
+    min-width: none;
   }
 }/*# sourceMappingURL=custom.css.map */
