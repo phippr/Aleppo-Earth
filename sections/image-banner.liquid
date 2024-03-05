@@ -103,7 +103,7 @@
         {%- case block.type -%}
           {%- when 'heading' -%}
             {% if block.settings.icon %}
-              <img src="{{ block.settings.icon | img_url }}">
+              <img src="{{ block.settings.icon | img_url: 'large' }}" width="200px">
             {% endif %}
             <{{ block.settings.heading_size }} class="banner__heading title inline-richtext" style="color:{{ section.settings.colour }}"  {{ block.shopify_attributes }}>
               {{ block.settings.heading }}
