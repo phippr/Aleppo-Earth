@@ -166,11 +166,6 @@
             "label": "t:sections.image-banner.settings.image.label"
           },
           {
-            "type": "image_picker",
-            "id": "image_2",
-            "label": "t:sections.image-banner.settings.image_2.label"
-          },
-          {
             "type": "range",
             "id": "image_overlay_opacity",
             "min": 0,
@@ -201,7 +196,8 @@
             "default": "medium",
             "label": "t:sections.image-banner.settings.image_height.label",
             "info": "t:sections.image-banner.settings.image_height.info"
-          }, {
+          },
+          {
             "type": "select",
             "id": "desktop_content_position",
             "options": [
@@ -337,18 +333,18 @@
                 "id": "heading_size",
                 "options": [
                   {
-                    "value": "h2",
-                    "label": "t:sections.all.heading_size.options__1.label"
-                  }, {
                     "value": "h1",
-                    "label": "t:sections.all.heading_size.options__2.label"
+                    "label": "Heading 1"
                   }, {
-                    "value": "h0",
-                    "label": "t:sections.all.heading_size.options__3.label"
+                    "value": "h2",
+                    "label": "Heading 2"
+                  }, {
+                    "value": "h3",
+                    "label": "Heading 3"
                   }
                 ],
                 "default": "h1",
-                "label": "t:sections.all.heading_size.label"
+                "label": "Heading Size"
               }
             ]
           }, {
@@ -363,21 +359,21 @@
                 "label": "t:sections.image-banner.blocks.text.settings.text.label"
               }, {
                 "type": "select",
-                "id": "text_style",
+                "id": "description_size",
                 "options": [
                   {
-                    "value": "body",
-                    "label": "t:sections.image-banner.blocks.text.settings.text_style.options__1.label"
+                    "value": "h3",
+                    "label": "Heading 3"
                   }, {
-                    "value": "subtitle",
-                    "label": "t:sections.image-banner.blocks.text.settings.text_style.options__2.label"
+                    "value": "h4",
+                    "label": "Heading 4"
                   }, {
-                    "value": "caption-with-letter-spacing",
-                    "label": "t:sections.image-banner.blocks.text.settings.text_style.options__3.label"
+                    "value": "p",
+                    "label": "Paragraph"
                   }
                 ],
-                "default": "body",
-                "label": "t:sections.image-banner.blocks.text.settings.text_style.label"
+                "default": "p",
+                "label": "Description Size"
               }
             ]
           }, {
