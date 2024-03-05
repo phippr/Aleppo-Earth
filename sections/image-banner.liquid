@@ -106,7 +106,7 @@
               {{ block.settings.heading }}
               </{{ block.settings.heading_size }}>
             {%- when 'text' -%}
-              <div class="banner__text description rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {{ block.shopify_attributes }}>
+              <div class="banner__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {{ block.shopify_attributes }}>
                 <{{ block.settings.description_size }} style="color:{{ section.settings.colour }}">
                   {{ block.settings.text -}}
                   </{{ block.settings.description_size }}>

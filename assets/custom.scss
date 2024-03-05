@@ -132,6 +132,50 @@ h4 {
       gap: 3rem;
     }
   }
+
+  .banner__box {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    max-width: 75ch !important;
+  }
+
+  .banner__box > * {
+    margin: 0 !important;
+  }
+
+  .banner__content--top-left,
+  .banner__content--middle-left,
+  .banner__content--bottom-left {
+    .banner__box {
+      align-items: flex-start;
+      .banner__text {
+        text-align: left;
+      }
+    }
+  }
+
+  .banner__content--top-center,
+  .banner__content--middle-center,
+  .banner__content--bottom-center {
+    .banner__box {
+      align-items: center;
+      .banner__text {
+        text-align: center;
+      }
+    }
+  }
+
+  .banner__content--top-right,
+  .banner__content--middle-right,
+  .banner__content--bottom-right {
+    .banner__box {
+      align-items: flex-end;
+      .banner__text {
+        text-align: right;
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 750px) {
@@ -141,7 +185,7 @@ h4 {
     }
 
     .banner--content-align-center .banner__buttons--multiple > * {
-      min-width: none;
+      min-width: 0 !important;
     }
   }
 }
