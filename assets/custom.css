@@ -126,6 +126,7 @@ h4 {
   flex-direction: column;
   gap: 3rem;
   max-width: 75ch !important;
+  padding: 0 !important;
 }
 .aleppo .banner__box > * {
   margin: 0 !important;
@@ -136,8 +137,11 @@ h4 {
   align-items: flex-start;
 }
 .aleppo .banner__content--top-left .banner__box .banner__text,
+.aleppo .banner__content--top-left .banner__box .banner__heading,
 .aleppo .banner__content--middle-left .banner__box .banner__text,
-.aleppo .banner__content--bottom-left .banner__box .banner__text {
+.aleppo .banner__content--middle-left .banner__box .banner__heading,
+.aleppo .banner__content--bottom-left .banner__box .banner__text,
+.aleppo .banner__content--bottom-left .banner__box .banner__heading {
   text-align: left;
 }
 .aleppo .banner__content--top-center .banner__box,
@@ -146,8 +150,11 @@ h4 {
   align-items: center;
 }
 .aleppo .banner__content--top-center .banner__box .banner__text,
+.aleppo .banner__content--top-center .banner__box .banner__heading,
 .aleppo .banner__content--middle-center .banner__box .banner__text,
-.aleppo .banner__content--bottom-center .banner__box .banner__text {
+.aleppo .banner__content--middle-center .banner__box .banner__heading,
+.aleppo .banner__content--bottom-center .banner__box .banner__text,
+.aleppo .banner__content--bottom-center .banner__box .banner__heading {
   text-align: center;
 }
 .aleppo .banner__content--top-right .banner__box,
@@ -156,9 +163,24 @@ h4 {
   align-items: flex-end;
 }
 .aleppo .banner__content--top-right .banner__box .banner__text,
+.aleppo .banner__content--top-right .banner__box .banner__heading,
 .aleppo .banner__content--middle-right .banner__box .banner__text,
-.aleppo .banner__content--bottom-right .banner__box .banner__text {
+.aleppo .banner__content--middle-right .banner__box .banner__heading,
+.aleppo .banner__content--bottom-right .banner__box .banner__text,
+.aleppo .banner__content--bottom-right .banner__box .banner__heading {
   text-align: right;
+}
+.aleppo .banner__box.width-small {
+  min-width: 0 !important;
+  width: 30% !important;
+}
+.aleppo .banner__box.width-medium {
+  min-width: 0 !important;
+  width: 50% !important;
+}
+.aleppo .banner__box.width-large {
+  min-width: 0 !important;
+  width: 70% !important;
 }
 
 @media screen and (min-width: 750px) {

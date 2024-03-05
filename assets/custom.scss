@@ -138,6 +138,7 @@ h4 {
     flex-direction: column;
     gap: 3rem;
     max-width: 75ch !important;
+    padding: 0 !important;
   }
 
   .banner__box > * {
@@ -149,7 +150,8 @@ h4 {
   .banner__content--bottom-left {
     .banner__box {
       align-items: flex-start;
-      .banner__text {
+      .banner__text,
+      .banner__heading {
         text-align: left;
       }
     }
@@ -160,7 +162,8 @@ h4 {
   .banner__content--bottom-center {
     .banner__box {
       align-items: center;
-      .banner__text {
+      .banner__text,
+      .banner__heading {
         text-align: center;
       }
     }
@@ -171,10 +174,26 @@ h4 {
   .banner__content--bottom-right {
     .banner__box {
       align-items: flex-end;
-      .banner__text {
+      .banner__text,
+      .banner__heading {
         text-align: right;
       }
     }
+  }
+
+  .banner__box.width-small {
+    min-width: 0 !important;
+    width: 30% !important;
+  }
+
+  .banner__box.width-medium {
+    min-width: 0 !important;
+    width: 50% !important;
+  }
+
+  .banner__box.width-large {
+    min-width: 0 !important;
+    width: 70% !important;
   }
 }
 
