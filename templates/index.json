@@ -7,14 +7,14 @@
           "type": "heading",
           "settings": {
             "heading": "Makers of Quality",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "text_rrzqjh": {
           "type": "text",
           "settings": {
             "text": "We offer a curated range \u2028of products that support\u2028a healthy wellbeings",
-            "text_style": "subtitle"
+            "description_size": "h4"
           }
         },
         "button": {
@@ -23,11 +23,9 @@
             "button_label_1": "Explore all Products",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_1": "solid",
-            "button_style_secondary_1": true,
             "button_label_2": "Test",
             "button_link_2": "shopify:\/\/pages\/contact",
-            "button_style_2": "solid",
-            "button_style_secondary_2": false
+            "button_style_2": "solid"
           }
         }
       },
@@ -38,7 +36,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/hero.jpg",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 50,
         "image_height": "adapt",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
@@ -92,7 +90,7 @@
           "type": "text",
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "description_size": "p"
           }
         },
         "buttons_mxmTcr": {
@@ -101,11 +99,9 @@
             "button_label_1": "Button label",
             "button_link_1": "",
             "button_style_1": "solid",
-            "button_style_secondary_1": false,
             "button_label_2": "Button label",
             "button_link_2": "",
-            "button_style_2": "solid",
-            "button_style_secondary_2": false
+            "button_style_2": "solid"
           }
         }
       },
