@@ -122,13 +122,13 @@ h4 {
   .multicolumn {
     padding: 2.5rem 0;
     margin: 0;
+  }
 
-    .page-width {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 3rem;
-    }
+  .content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
   }
 
   .banner__box {
