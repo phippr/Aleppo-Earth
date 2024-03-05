@@ -114,6 +114,15 @@ h4 {
   padding: 2.5rem 0;
   margin: 0;
 }
+.aleppo .featured-collection .collection__title,
+.aleppo .featured-collection .description {
+  margin: 0 auto 3rem !important;
+  text-align: center;
+}
+.aleppo .featured-collection .center {
+  margin: 3rem auto 0 !important;
+  text-align: center;
+}
 .aleppo .multicolumn-card {
   background-color: transparent !important;
 }

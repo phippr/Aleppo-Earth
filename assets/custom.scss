@@ -125,6 +125,19 @@ h4 {
     margin: 0;
   }
 
+  .featured-collection {
+    .collection__title,
+    .description {
+      margin: 0 auto 3rem !important;
+      text-align: center;
+    }
+
+    .center {
+      margin: 3rem auto 0 !important;
+      text-align: center;
+    }
+  }
+
   .multicolumn-card {
     background-color: transparent !important;
   }
