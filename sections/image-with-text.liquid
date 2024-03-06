@@ -81,7 +81,7 @@
                       {% else %}
                       href="{{ block.settings.button_link }}"
                       {% endif %}
-                      class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %} "
+                      class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
                       {{ block.shopify_attributes }}>
                       {{ block.settings.button_label | escape }}
                     </a>
@@ -110,12 +110,6 @@
         "default": "transparent"
       },
       {
-        "type": "color",
-        "id": "colour",
-        "label": "Text Colour",
-        "default": "#000000"
-      },
-      {
         "type": "image_picker",
         "id": "image",
         "label": "t:sections.image-with-text.settings.image.label"
@@ -140,7 +134,8 @@
         ],
         "default": "adapt",
         "label": "t:sections.image-with-text.settings.height.label"
-      }, {
+      },
+      {
         "type": "select",
         "id": "desktop_image_width",
         "options": [
@@ -310,18 +305,18 @@
             "id": "heading_size",
             "options": [
               {
-                "value": "h1",
-                "label": "Heading 1"
-              }, {
                 "value": "h2",
-                "label": "Heading 2"
+                "label": "t:sections.all.heading_size.options__1.label"
               }, {
-                "value": "h3",
-                "label": "Heading 3"
+                "value": "h1",
+                "label": "t:sections.all.heading_size.options__2.label"
+              }, {
+                "value": "h0",
+                "label": "t:sections.all.heading_size.options__3.label"
               }
             ],
             "default": "h1",
-            "label": "Heading Size"
+            "label": "t:sections.all.heading_size.label"
           }
         ]
       }, {
@@ -373,27 +368,24 @@
         "limit": 1,
         "settings": [
           {
-            "type": "inline_richtext",
+            "type": "richtext",
             "id": "text",
             "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "label": "t:sections.image-with-text.blocks.text.settings.text.label"
           }, {
             "type": "select",
-            "id": "description_size",
+            "id": "text_style",
             "options": [
               {
-                "value": "h3",
-                "label": "Heading 3"
+                "value": "body",
+                "label": "t:sections.image-with-text.blocks.text.settings.text_style.options__1.label"
               }, {
-                "value": "h4",
-                "label": "Heading 4"
-              }, {
-                "value": "p",
-                "label": "Paragraph"
+                "value": "subtitle",
+                "label": "t:sections.image-with-text.blocks.text.settings.text_style.options__2.label"
               }
             ],
-            "default": "p",
-            "label": "Description Size"
+            "default": "body",
+            "label": "t:sections.image-with-text.blocks.text.settings.text_style.label"
           }
         ]
       }, {
@@ -412,33 +404,10 @@
             "id": "button_link",
             "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
           }, {
-            "type": "select",
-            "id": "button_style",
-            "options": [
-              {
-                "value": "solid",
-                "label": "Solid"
-              }, {
-                "value": "outline",
-                "label": "Outline"
-              }
-            ],
-            "default": "solid",
-            "label": "Button Style"
-          }, {
-            "type": "select",
-            "id": "button_colour",
-            "options": [
-              {
-                "value": "light",
-                "label": "Light"
-              }, {
-                "value": "dark",
-                "label": "Dark"
-              }
-            ],
-            "default": "dark",
-            "label": "Button Colour"
+            "type": "checkbox",
+            "id": "button_style_secondary",
+            "default": false,
+            "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
           }
         ]
       }
