@@ -247,7 +247,7 @@ h4 a {
   }
 
   /*.facet-filters__sort {*/
-  form * {
+  form *:not(.active-facets__button-inner) {
     box-shadow: none !important;
     outline: none !important;
   }
