@@ -326,6 +326,17 @@ h4 a {
   .product__media-icon {
     background: #f9f6ef !important;
   }
+
+  .related-products {
+    background-color: #ded2c6;
+    margin-top: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .related-products__heading {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 750px) {
