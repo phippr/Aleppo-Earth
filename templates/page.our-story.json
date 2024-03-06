@@ -20,23 +20,14 @@
         "text_nJYnNL": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et posuere nisl. Duis vel fermentum ex. Maecenas ultricies et mi sit amet vehicula. Vivamus eget lacus sodales, dictum nisl at, quam. <\/p>",
             "text_style": "body"
-          }
-        },
-        "button_aJikFB": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_Y4YDKK",
-        "text_nJYnNL",
-        "button_aJikFB"
+        "text_nJYnNL"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/064e19c63605c77a2ddd04b91bbc41bf.jpg",
@@ -57,31 +48,23 @@
     "image_with_text_KhQkTi": {
       "type": "image-with-text",
       "blocks": {
-        "heading_HBn6fa": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
         "text_Jbzdge": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Quisque malesuada finibus ornare. Nam ornare ex ullamcorper nisl accumsan rutrum. Sed orci risus, tristique eu tempus quis, ultrices a nibh. <\/p>",
             "text_style": "body"
           }
         },
         "button_W3BLkk": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Explore all Products",
+            "button_link": "shopify:\/\/collections\/all",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_HBn6fa",
         "text_Jbzdge",
         "button_W3BLkk"
       ],
