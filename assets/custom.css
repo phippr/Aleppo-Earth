@@ -260,6 +260,10 @@ h4 a {
   margin: 0.7rem 1.5rem 0.2rem 0 !important;
   font: normal 500 0.875rem/1.5 Indivisible, Helvtica, Arial, sans-serif !important;
   text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+.aleppo .product-form__input label:hover {
+  border-bottom: 2px solid rgba(20, 20, 20, 0.5019607843) !important;
 }
 .aleppo .product-form__input input[type=radio]:checked + label {
   border-bottom: 2px solid #141414 !important;
