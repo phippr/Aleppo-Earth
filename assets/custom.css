@@ -223,7 +223,7 @@ h4 a {
 .aleppo .facet-checkbox > svg {
   background-color: #fff;
 }
-.aleppo .focus-offset {
+.aleppo form * {
   box-shadow: none !important;
   outline: none !important;
 }
