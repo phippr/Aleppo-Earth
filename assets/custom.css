@@ -160,14 +160,16 @@ h4 a {
 .aleppo .content-section > * {
   margin: 0 !important;
 }
-.aleppo .banner__box {
+.aleppo .banner__box,
+.aleppo .image-with-text__content {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   max-width: 75ch !important;
   padding: 0 !important;
 }
-.aleppo .banner__box > * {
+.aleppo .banner__box > *,
+.aleppo .image-with-text__content > * {
   margin: 0 !important;
 }
 .aleppo .banner__content--top-left .banner__box,

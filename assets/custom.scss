@@ -180,7 +180,8 @@ h4 a {
     }
   }
 
-  .banner__box {
+  .banner__box,
+  .image-with-text__content {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -188,7 +189,8 @@ h4 a {
     padding: 0 !important;
   }
 
-  .banner__box > * {
+  .banner__box > *,
+  .image-with-text__content > * {
     margin: 0 !important;
   }
 
