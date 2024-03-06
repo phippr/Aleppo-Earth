@@ -281,7 +281,8 @@ h4 a {
   background-color: #ded2c6;
 }
 .aleppo .product-form__submit span,
-.aleppo .shopify-payment-button__more-options {
+.aleppo .shopify-payment-button__more-options,
+.aleppo .shopify-payment-button__button {
   font: normal 500 0.875rem/1.5 Indivisible, Helvtica, Arial, sans-serif !important;
   text-transform: uppercase;
 }
