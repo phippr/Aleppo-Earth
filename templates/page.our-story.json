@@ -67,10 +67,94 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_FTFaJX": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zkAp4k": {
+          "type": "heading",
+          "settings": {
+            "heading": "The ancient city of Aleppo is renowned for its rich history of self-care & wellness treatments",
+            "heading_size": "h3"
+          }
+        },
+        "text_aDbBmw": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et posuere nisl. Duis vel fermentum ex. Maecenas ultricies et mi sit amet vehicula. Vivamus eget lacus sodales, dictum nisl at, quam.",
+            "description_size": "p"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zkAp4k",
+        "text_aDbBmw"
+      ],
+      "settings": {
+        "background_colour": "{{ shop.brand.colors.secondary[1].background }}",
+        "colour": "#000000",
+        "image": "shopify:\/\/shop_images\/064e19c63605c77a2ddd04b91bbc41bf.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_7MzYgG": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_pUVNHF": {
+          "type": "text",
+          "settings": {
+            "text": "Quisque malesuada finibus ornare. Nam ornare ex ullamcorper nisl accumsan rutrum. Sed orci risus, tristique eu tempus quis, ultrices a nibh.",
+            "description_size": "p"
+          }
+        },
+        "button_fn6gJw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore all Products",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style": "outline",
+            "button_colour": "dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_pUVNHF",
+        "button_fn6gJw"
+      ],
+      "settings": {
+        "background_colour": "{{ shop.brand.colors.secondary[1].background }}",
+        "colour": "#000000",
+        "image": "shopify:\/\/shop_images\/8aa2eaed61c8e26f10b321e667ff0461.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "collapsible_content_F6H33a"
+    "collapsible_content_F6H33a",
+    "image_with_text_FTFaJX",
+    "image_with_text_7MzYgG"
   ]
 }
