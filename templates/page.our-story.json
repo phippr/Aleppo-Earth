@@ -3,6 +3,7 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "background_colour": "{{ shop.brand.colors.secondary[1].background }}",
         "padding_top": 28,
         "padding_bottom": 28
       }
