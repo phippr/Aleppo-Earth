@@ -285,6 +285,8 @@ h4 a {
 .aleppo .shopify-payment-button__button {
   font: normal 500 0.875rem/1.5 Indivisible, Helvtica, Arial, sans-serif !important;
   text-transform: uppercase;
+}
+.aleppo .shopify-payment-button__button--unbranded {
   min-height: 0 !important;
   padding: 1.2rem 1.5rem !important;
 }
