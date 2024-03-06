@@ -111,6 +111,9 @@ h4 a {
   border: none;
   opacity: 1 !important;
 }
+.aleppo .button--solid:hover {
+  opacity: 0.85 !important;
+}
 .aleppo .button--outline.light {
   border: 1px solid #f9f6ef;
   color: #f9f6ef;
@@ -127,7 +130,7 @@ h4 a {
   background-color: transparent;
   opacity: 1 !important;
 }
-.aleppo .button--outline.light:hover {
+.aleppo .button--outline.dark:hover {
   background-color: #141414;
   color: #f9f6ef;
 }
