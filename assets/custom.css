@@ -140,7 +140,8 @@ h4 a {
 }
 .aleppo .multicolumn,
 .aleppo .featured-collection,
-.aleppo .section-image-with-text {
+.aleppo .section-image-with-text,
+.aleppo .section-page-title {
   padding: 2.5rem 0;
   margin: 0;
 }
@@ -324,7 +325,8 @@ h4 a {
 @media screen and (min-width: 750px) {
   .aleppo .multicolumn,
   .aleppo .featured-collection,
-  .aleppo .section-image-with-text {
+  .aleppo .section-image-with-text,
+  .aleppo .section-page-title {
     padding: 5rem 0;
   }
   .aleppo .banner--content-align-center .banner__buttons--multiple > * {
