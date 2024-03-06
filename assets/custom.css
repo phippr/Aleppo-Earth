@@ -83,6 +83,7 @@ h4 a {
 }
 .aleppo .main-page-title {
   text-align: center;
+  margin: 0 !important;
 }
 .aleppo .button {
   margin-top: 0 !important;
