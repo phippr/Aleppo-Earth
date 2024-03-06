@@ -81,6 +81,9 @@ h4 a {
   text-align: center;
   padding: 0 1rem;
 }
+.aleppo .main-page-title {
+  text-align: center;
+}
 .aleppo .button {
   margin-top: 0 !important;
   padding: 1.2rem 1.5rem;
