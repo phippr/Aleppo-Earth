@@ -56,6 +56,7 @@ h4 a {
 
 .aleppo {
   background-color: #f9f6ef;
+  /*.facet-filters__sort {*/
 }
 .aleppo .multicolumn-card__info {
   padding: 1.5rem 0.5rem 0 0.5rem;
@@ -222,7 +223,7 @@ h4 a {
 .aleppo .facet-checkbox > svg {
   background-color: #fff;
 }
-.aleppo .facet-filters__sort {
+.aleppo .focus-offset {
   box-shadow: none !important;
   outline: none !important;
 }
