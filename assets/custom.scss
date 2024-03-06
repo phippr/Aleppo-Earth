@@ -147,7 +147,8 @@ h4 a {
   }
 
   .multicolumn,
-  .featured-collection {
+  .featured-collection,
+  .section-image-with-text {
     padding: 2.5rem 0;
     margin: 0;
   }
@@ -364,12 +365,21 @@ h4 a {
 @media screen and (min-width: 750px) {
   .aleppo {
     .multicolumn,
-    .featured-collection {
+    .featured-collection,
+    .section-image-with-text {
       padding: 5rem 0;
     }
 
     .banner--content-align-center .banner__buttons--multiple > * {
       min-width: 0 !important;
+    }
+
+    .image-with-text__content {
+      margin: 0 0 0 3rem;
+    }
+
+    .image-with-text__grid--reverse .image-with-text__content {
+      margin: 0 3rem 0 0;
     }
   }
 }

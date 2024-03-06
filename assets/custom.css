@@ -135,7 +135,8 @@ h4 a {
   color: #f9f6ef;
 }
 .aleppo .multicolumn,
-.aleppo .featured-collection {
+.aleppo .featured-collection,
+.aleppo .section-image-with-text {
   padding: 2.5rem 0;
   margin: 0;
 }
@@ -318,10 +319,17 @@ h4 a {
 
 @media screen and (min-width: 750px) {
   .aleppo .multicolumn,
-  .aleppo .featured-collection {
+  .aleppo .featured-collection,
+  .aleppo .section-image-with-text {
     padding: 5rem 0;
   }
   .aleppo .banner--content-align-center .banner__buttons--multiple > * {
     min-width: 0 !important;
+  }
+  .aleppo .image-with-text__content {
+    margin: 0 0 0 3rem;
+  }
+  .aleppo .image-with-text__grid--reverse .image-with-text__content {
+    margin: 0 3rem 0 0;
   }
 }/*# sourceMappingURL=custom.css.map */
