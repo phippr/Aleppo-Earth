@@ -48,7 +48,11 @@ h4 a {
   text-transform: uppercase;
 }
 
-#FacetFiltersForm *,
+#FacetFiltersForm * {
+  font: normal 500 0.875rem/1.5 Indivisible, Helvtica, Arial, sans-serif !important;
+  text-transform: uppercase;
+}
+
 .card-information * {
   font: normal 400 0.875rem/1.5 Indivisible, Helvtica, Arial, sans-serif !important;
   text-transform: uppercase;

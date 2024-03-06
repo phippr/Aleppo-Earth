@@ -46,7 +46,11 @@ h4 a {
   text-transform: uppercase;
 }
 
-#FacetFiltersForm *,
+#FacetFiltersForm * {
+  font: normal 500 0.875rem/1.5 Indivisible, Helvtica, Arial, sans-serif !important;
+  text-transform: uppercase;
+}
+
 .card-information * {
   font: normal 400 0.875rem/1.5 Indivisible, Helvtica, Arial, sans-serif !important;
   text-transform: uppercase;
@@ -255,6 +259,67 @@ h4 a {
   .facets-container {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+  }
+
+  .product__media-list.contains-media.grid {
+    margin-bottom: 1rem !important;
+  }
+
+  .product__description span {
+    line-height: 1.5 !important;
+    display: inline-block;
+  }
+
+  .product__title {
+    margin-bottom: 0 !important;
+  }
+
+  product-info .no-js-hidden {
+    margin: 0 !important;
+  }
+
+  .form__label {
+    display: none;
+  }
+
+  .product-form__input label {
+    background: transparent !important;
+    border-radius: 0 !important;
+    border: 0 !important;
+    border-bottom: 2px solid transparent !important;
+    padding: 0.5rem 0 !important;
+    margin: 0.7rem 1.5rem 0.2rem 0 !important;
+    font: normal 500 0.875rem/1.5 Indivisible, Helvtica, Arial, sans-serif !important;
+    text-transform: uppercase;
+  }
+
+  .product-form__input input[type="radio"]:checked + label {
+    border-bottom: 2px solid #141414 !important;
+  }
+
+  .quantity * {
+    background: transparent !important;
+    font: normal 500 0.875rem/1.5 Indivisible, Helvtica, Arial, sans-serif !important;
+  }
+
+  .quantity {
+    background: #f9f6ef !important;
+    min-height: 3.5rem !important;
+    width: 11.5rem !important;
+  }
+
+  .product-form__submit {
+    background-color: #ded2c6;
+  }
+
+  .product-form__submit span,
+  .shopify-payment-button__more-options {
+    font: normal 500 0.875rem/1.5 Indivisible, Helvtica, Arial, sans-serif !important;
+    text-transform: uppercase;
+  }
+
+  .product__media-icon {
+    background: #f9f6ef !important;
   }
 }
 
