@@ -346,6 +346,25 @@ h4 a {
 .aleppo #shopify-section-template--16667165098180__main {
   position: relative;
 }
+.aleppo .accordion {
+  border-top: none;
+  border-bottom: 1px solid #943d1a;
+}
+.aleppo .icon-accordion {
+  display: none;
+}
+.aleppo .accordion .icon-caret {
+  color: #943d1a;
+}
+.aleppo .collapsible-content summary {
+  padding-left: 1.5rem;
+}
+.aleppo .collapsible-content summary:hover .accordion__title {
+  text-decoration: none;
+}
+.aleppo .accordion__content {
+  padding: 1rem 1.5rem 0;
+}
 
 @media screen and (min-width: 750px) {
   .aleppo .multicolumn,

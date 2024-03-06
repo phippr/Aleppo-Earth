@@ -394,6 +394,31 @@ h4 a {
   #shopify-section-template--16667165098180__main {
     position: relative;
   }
+
+  .accordion {
+    border-top: none;
+    border-bottom: 1px solid #943d1a;
+  }
+
+  .icon-accordion {
+    display: none;
+  }
+
+  .accordion .icon-caret {
+    color: #943d1a;
+  }
+
+  .collapsible-content summary {
+    padding-left: 1.5rem;
+  }
+
+  .collapsible-content summary:hover .accordion__title {
+    text-decoration: none;
+  }
+
+  .accordion__content {
+    padding: 1rem 1.5rem 0;
+  }
 }
 
 @media screen and (min-width: 750px) {
