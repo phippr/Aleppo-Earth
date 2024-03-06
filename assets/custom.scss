@@ -273,7 +273,6 @@ h4 a {
     background-color: #fff;
   }
 
-  /*.facet-filters__sort {*/
   form *:not(.active-facets__button-inner) {
     box-shadow: none !important;
     outline: none !important;
@@ -365,6 +364,35 @@ h4 a {
 
   .related-products__heading {
     text-align: center;
+  }
+
+  #shopify-section-template--16667165098180__main:after {
+    content: "";
+    position: absolute;
+    width: calc(100% - 154px);
+    height: 60px;
+    top: calc(100% - 30px);
+    background-image: url(https://cdn.shopify.com/s/files/1/0638/0827/4628/files/repeat.svg?v=1709719842);
+    background-position: left;
+    background-repeat: repeat;
+    margin-left: 154px;
+    overflow: hidden;
+  }
+
+  #shopify-section-template--16667165098180__main:before {
+    content: "";
+    position: absolute;
+    width: 154px;
+    height: 60px;
+    top: calc(100% - 30px);
+    background-image: url(https://cdn.shopify.com/s/files/1/0638/0827/4628/files/fixed.svg?v=1709719842);
+    background-position: left;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+  #shopify-section-template--16667165098180__main {
+    position: relative;
   }
 }
 

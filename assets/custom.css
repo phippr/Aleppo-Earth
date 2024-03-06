@@ -60,7 +60,6 @@ h4 a {
 
 .aleppo {
   background-color: #f9f6ef;
-  /*.facet-filters__sort {*/
 }
 .aleppo .multicolumn-card__info {
   padding: 1.5rem 0.5rem 0 0.5rem;
@@ -320,6 +319,32 @@ h4 a {
 }
 .aleppo .related-products__heading {
   text-align: center;
+}
+.aleppo #shopify-section-template--16667165098180__main:after {
+  content: "";
+  position: absolute;
+  width: calc(100% - 154px);
+  height: 60px;
+  top: calc(100% - 30px);
+  background-image: url(https://cdn.shopify.com/s/files/1/0638/0827/4628/files/repeat.svg?v=1709719842);
+  background-position: left;
+  background-repeat: repeat;
+  margin-left: 154px;
+  overflow: hidden;
+}
+.aleppo #shopify-section-template--16667165098180__main:before {
+  content: "";
+  position: absolute;
+  width: 154px;
+  height: 60px;
+  top: calc(100% - 30px);
+  background-image: url(https://cdn.shopify.com/s/files/1/0638/0827/4628/files/fixed.svg?v=1709719842);
+  background-position: left;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.aleppo #shopify-section-template--16667165098180__main {
+  position: relative;
 }
 
 @media screen and (min-width: 750px) {
