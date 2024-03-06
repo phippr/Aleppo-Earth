@@ -93,7 +93,7 @@ h4 a {
 }
 .aleppo .button:hover {
   transform: none !important;
-  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15) !important;
+  /*box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15) !important;*/
 }
 .aleppo .button:hover:after {
   --border-offset: 0;
@@ -117,11 +117,19 @@ h4 a {
   background-color: transparent;
   opacity: 1 !important;
 }
+.aleppo .button--outline.light:hover {
+  background-color: #f9f6ef;
+  color: #141414;
+}
 .aleppo .button--outline.dark {
   border: 1px solid #141414;
   color: #141414;
   background-color: transparent;
   opacity: 1 !important;
+}
+.aleppo .button--outline.light:hover {
+  background-color: #141414;
+  color: #f9f6ef;
 }
 .aleppo .multicolumn,
 .aleppo .featured-collection {

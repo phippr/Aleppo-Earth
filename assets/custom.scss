@@ -96,7 +96,7 @@ h4 a {
 
   .button:hover {
     transform: none !important;
-    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15) !important;
+    /*box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15) !important;*/
   }
 
   .button:hover:after {
@@ -125,11 +125,21 @@ h4 a {
     opacity: 1 !important;
   }
 
+  .button--outline.light:hover {
+    background-color: #f9f6ef;
+    color: #141414;
+  }
+
   .button--outline.dark {
     border: 1px solid #141414;
     color: #141414;
     background-color: transparent;
     opacity: 1 !important;
+  }
+
+  .button--outline.light:hover {
+    background-color: #141414;
+    color: #f9f6ef;
   }
 
   .multicolumn,
