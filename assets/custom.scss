@@ -237,6 +237,19 @@ h4 a {
   .facets__header {
     background-color: #f9f6ef;
   }
+
+  .icon-caret {
+    top: calc(50% - 0.25rem) !important;
+  }
+
+  .facet-checkbox > svg {
+    background-color: #fff;
+  }
+
+  .facet-filters__sort {
+    box-shadow: none !important;
+    outline: none !important;
+  }
 }
 
 @media screen and (min-width: 750px) {

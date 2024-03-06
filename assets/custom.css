@@ -216,6 +216,16 @@ h4 a {
 .aleppo .facets__header {
   background-color: #f9f6ef;
 }
+.aleppo .icon-caret {
+  top: calc(50% - 0.25rem) !important;
+}
+.aleppo .facet-checkbox > svg {
+  background-color: #fff;
+}
+.aleppo .facet-filters__sort {
+  box-shadow: none !important;
+  outline: none !important;
+}
 
 @media screen and (min-width: 750px) {
   .aleppo .multicolumn,
