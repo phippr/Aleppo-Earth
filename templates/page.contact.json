@@ -11,7 +11,7 @@
     "form": {
       "type": "contact-form",
       "settings": {
-        "heading": "",
+        "heading": "Test",
         "heading_size": "h1",
         "background_colour": "rgba(0,0,0,0)",
         "colour": "#000000",
