@@ -51,12 +51,15 @@
         <div class="image-with-text__text-item grid__item">
           <div id="ImageWithText--{{ section.id }}" class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} content-container{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}">
             <div class="contact section-{{ section.id }}-padding">
-              {%- if section.settings.heading != blank -%}
-                <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-                  {{ section.settings.heading }}
-                </h2>
-              {%- else -%}
-                <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
+              {%- if section.settings.phone != blank -%}
+                <h4 class="title title-wrapper--no-top-margin inline-richtext{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+                  {{ section.settings.phone }}
+                </h4>
+              {%- endif -%}
+              {%- if section.settings.email != blank -%}
+                <h4 class="title title-wrapper--no-top-margin inline-richtext{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+                  {{ section.settings.email }}
+                </h4>
               {%- endif -%}
               {%- liquid
                 assign contact_form_class = 'isolate'
@@ -190,10 +193,16 @@
     },
     "settings": [
       {
-        "type": "richtext",
-        "id": "heading",
-        "default": "Contact form",
-        "label": "Heading"
+        "type": "inline_richtext",
+        "id": "phone",
+        "default": "Phone Number",
+        "label": "Phone Number"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "email",
+        "default": "Email Address",
+        "label": "Email Address"
       },
       {
         "type": "select",
@@ -218,8 +227,7 @@
         "id": "background_colour",
         "label": "Background Colour",
         "default": "transparent"
-      },
-      {
+      }, {
         "type": "color",
         "id": "colour",
         "label": "Text Colour",
