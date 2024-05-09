@@ -389,6 +389,30 @@ h4 a {
   flex-direction: column;
   align-items: flex-start;
 }
+.aleppo #footer-custom {
+  font: 500 0.75rem/1 Indivisible, Helvtica, Arial, sans-serif !important;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.aleppo #footer-custom #footer-custom-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+.aleppo #footer-custom #footer-custom-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+.aleppo #footer-custom a {
+  text-decoration: none !important;
+}
 
 @media screen and (min-width: 750px) {
   .aleppo .multicolumn,
