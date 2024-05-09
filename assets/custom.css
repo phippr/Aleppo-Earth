@@ -368,6 +368,27 @@ h4 a {
 .aleppo .accordion__content {
   padding: 1rem 1.5rem 0;
 }
+.aleppo .footer__content-top.page-width {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: start;
+}
+.aleppo .footer-block--menu li a {
+  text-transform: uppercase;
+  color: black;
+  font: 500 1rem/1.5 Indivisible, Helvtica, Arial, sans-serif !important;
+}
+.aleppo .footer-block--newsletter.scroll-trigger.animate--slide-in {
+  margin: 0;
+}
+.aleppo h2.footer-block__heading.inline-richtext {
+  font: 500 1rem/1.2 Indivisible, Helvtica, Arial, sans-serif !important;
+  text-transform: uppercase;
+}
+.aleppo .footer-block--newsletter.scroll-trigger.animate--slide-in {
+  flex-direction: column;
+  align-items: flex-start;
+}
 
 @media screen and (min-width: 750px) {
   .aleppo .multicolumn,
