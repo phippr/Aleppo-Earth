@@ -177,6 +177,9 @@ h4 a {
 .aleppo .image-with-text__content > * {
   margin: 0 !important;
 }
+.aleppo .image-with-text__media img {
+  height: auto !important;
+}
 .aleppo .banner__content--top-left .banner__box,
 .aleppo .banner__content--middle-left .banner__box,
 .aleppo .banner__content--bottom-left .banner__box {
