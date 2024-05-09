@@ -33,7 +33,7 @@
       "settings": {
         "background_colour": "{{ shop.brand.colors.secondary[1].background }}",
         "colour": "#000000",
-        "image": "shopify:\/\/shop_images\/064e19c63605c77a2ddd04b91bbc41bf.jpg",
+        "image": "shopify:\/\/shop_images\/hand-holding-aleppo-soap-01.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -75,7 +75,7 @@
       "settings": {
         "background_colour": "{{ shop.brand.colors.secondary[1].background }}",
         "colour": "#000000",
-        "image": "shopify:\/\/shop_images\/8aa2eaed61c8e26f10b321e667ff0461.jpg",
+        "image": "shopify:\/\/shop_images\/bars-of-aleppo-soap-02.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
