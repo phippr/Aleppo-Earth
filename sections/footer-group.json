@@ -19,31 +19,16 @@
             "heading": "",
             "menu": "footer"
           }
-        },
-        "brand_information_w6V3hF": {
-          "type": "brand_information",
-          "settings": {
-            "show_social": true
-          }
-        },
-        "text_gFeq9X": {
-          "type": "text",
-          "settings": {
-            "heading": "",
-            "subtext": "<p>©Aleppo Earth. Website by BrandWorks<\/p>"
-          }
         }
       },
       "block_order": [
         "image_mtbiLX",
-        "link_list_7YLdAh",
-        "brand_information_w6V3hF",
-        "text_gFeq9X"
+        "link_list_7YLdAh"
       ],
       "settings": {
         "color_scheme": "background-1",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Sign up now and save 10% on your first order",
         "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": false,
