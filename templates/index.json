@@ -6,21 +6,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Makers of Quality",
+            "heading": "Aleppo Earth",
             "heading_size": "h1"
           }
         },
         "text_rrzqjh": {
           "type": "text",
           "settings": {
-            "text": "We offer a curated range \u2028of products that support\u2028a healthy wellbeings",
+            "text": "Rediscover the ancient self-care traditions of Aleppo, enriched by the bounty of nature for your skin.",
             "description_size": "h4"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Explore all Products",
+            "button_label_1": "Discover the Range",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_1": "outline",
             "button_colour_1": "light",
@@ -54,15 +54,15 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Love Your Mind, Body & Skin",
         "colour": "#000000",
         "heading_size": "h2",
-        "description": "Exploring the ancient self-care and wellness practices of Aleppo offers a profound connection to the past while providing a pathway to a more balanced and nourished present.",
+        "description": "Unlock the secrets of Aleppo's rich heritage with our curated range of natural health and self-care skin products. From rejuvenating soap bars to nourishing gels, immerse yourself in the healing power of ancient rituals, meticulously crafted for today's modern lifestyle.",
         "show_description": false,
         "description_size": "p",
         "collection": "frontpage",
         "products_to_show": 8,
-        "button_label": "Explore all Products",
+        "button_label": "Explore Now",
         "button_link": "shopify:\/\/collections\/all",
         "button_style": "outline",
         "columns_desktop": 3,
