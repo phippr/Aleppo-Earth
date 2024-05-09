@@ -457,6 +457,9 @@ h4 a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: var(--page-width);
+    padding: 0 5rem;
+    color: black !important;
 
     #footer-custom-1 {
       display: flex;
@@ -476,6 +479,7 @@ h4 a {
 
     a {
       text-decoration: none !important;
+      color: black !important;
     }
   }
 }

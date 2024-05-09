@@ -396,6 +396,9 @@ h4 a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: var(--page-width);
+  padding: 0 5rem;
+  color: black !important;
 }
 .aleppo #footer-custom #footer-custom-1 {
   display: flex;
@@ -413,6 +416,7 @@ h4 a {
 }
 .aleppo #footer-custom a {
   text-decoration: none !important;
+  color: black !important;
 }
 
 @media screen and (min-width: 750px) {
