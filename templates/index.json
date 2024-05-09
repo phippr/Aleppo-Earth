@@ -62,7 +62,7 @@
         "description_size": "p",
         "collection": "frontpage",
         "products_to_show": 8,
-        "button_label": "Explore Now",
+        "button_label": "Explore The Range",
         "button_link": "shopify:\/\/collections\/all",
         "button_style": "outline",
         "columns_desktop": 3,
@@ -139,8 +139,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/highlight-1.jpg",
-            "title": "",
-            "text": "<p>We offer a curated range of products that support a healthy wellbeings.<\/p>",
+            "title": "Radiate Beyond",
+            "text": "<p>Inspired by centuries-old traditions, passed down through generations in the ancient city of Aleppo, we believe in the power of nature, sourcing only the finest, earth-enriched ingredients for our range of soaps.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -149,8 +149,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/highlight-2.png",
-            "title": "",
-            "text": "<p>We offer a curated range of products that support a healthy wellbeings.<\/p>",
+            "title": "Aleppo Earth Soap Bars",
+            "text": "<p>Handmade to a blend of olive oil, laurel oil, soda, and water, providing gentle yet effective cleansing for all skin types, hair and scalp conditions. Choose from 12% Laurel oil or higher.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -159,8 +159,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/highlight-3.png",
-            "title": "",
-            "text": "<p>We offer a curated range of products that support a healthy wellbeings.<\/p>",
+            "title": "Aleppo Earth Gel",
+            "text": "<p>Revitalise your Routine. Our range of premium gels are infused with natural ingredients to gently cleanse and nourish the skin, formulated with 35% Laurel oil to leave you feeling refreshed and rejuvenated. Perfect for the shower or bath. <\/p>",
             "link_label": "",
             "link": ""
           }
@@ -169,8 +169,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/highlight-2.png",
-            "title": "",
-            "text": "<p>We offer a curated range of products that support a healthy wellbeings.<\/p>",
+            "title": "Aleppo Earth Bath Care",
+            "text": "<p>Our shower and bath amenity range are a perfect pairing to Aleppo Earth's soaps and gels. Made from sustainable materials and sourced locally.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -184,17 +184,17 @@
       ],
       "settings": {
         "background_colour": "rgba(0,0,0,0)",
-        "title": "Product Highlights",
+        "title": "Natural Glow",
         "colour": "#000000",
         "heading_size": "h2",
-        "description": "Quality is never an accident. It is always the result of intelligent effort. We spend most of our time and energy for good design and to achieve high quality. Every single detail from material to technique is thought through with obsessive attention. If our product doesn't satisfy you, we'll take it back.",
+        "description": "Transform Your Routine with Aleppo Earth.",
         "description_size": "p",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Explore all Products",
+        "button_label": "Explore the Range",
         "button_link": "shopify:\/\/collections\/all",
         "button_style": "outline",
         "columns_mobile": "2",
