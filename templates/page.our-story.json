@@ -61,7 +61,7 @@
         "button_fn6gJw": {
           "type": "button",
           "settings": {
-            "button_label": "Explore all Products",
+            "button_label": "Explore the Range",
             "button_link": "shopify:\/\/collections\/all",
             "button_style": "outline",
             "button_colour": "dark"
