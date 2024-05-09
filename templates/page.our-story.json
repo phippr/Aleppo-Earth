@@ -96,36 +96,54 @@
         "collapsible_row_ybJ8te": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What are the key ingredients in Aleppo soap?",
+            "heading": "What makes Aleppo Earth soaps unique?",
             "icon": "check_mark",
-            "row_content": "<p>The main ingredients in Aleppo soap are olive oil and laurel oil. These natural oils are known for their nourishing and moisturizing properties.<\/p>",
+            "row_content": "<p>Our soap bars are crafted using traditional methods dating back thousands of years, with ingredients sourced directly from Aleppo. Each bar is handmade with a blend of olive oil, laurel oil, soda, and water, providing gentle yet effective cleansing for all skin types.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_aL3XCY": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What are the key ingredients in Aleppo soap?",
+            "heading": "Are Aleppo Earth soaps suitable for sensitive skin?",
             "icon": "check_mark",
-            "row_content": "<p>What are the key ingredients in Aleppo soap?<\/p>",
+            "row_content": "<p>Yes, our soap bars and gels are gentle and soothing, making them suitable for sensitive skin. The natural ingredients help to nourish and moisturize the skin, leaving it feeling soft and refreshed.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_dVCpDj": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What are the key ingredients in Aleppo soap?",
+            "heading": "How long do Aleppo Earth soap bars last?",
             "icon": "check_mark",
-            "row_content": "<p>What are the key ingredients in Aleppo soap?<\/p>",
+            "row_content": "<p>Our soap bars are long-lasting and will typically last for several weeks with regular use. To prolong the life of your soap bar, be sure to store it in a dry, well-drained soap dish between uses.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_gWNqzR": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What are the key ingredients in Aleppo soap?",
+            "heading": "Do you offer bath gels in addition to soap bars?",
             "icon": "check_mark",
-            "row_content": "<p>What are the key ingredients in Aleppo soap?<\/p>",
+            "row_content": "<p>Yes, we have a range of luxurious bath gels infused with natural ingredients to cleanse and nourish the skin. Our bath gels are formulated to leave you feeling refreshed and rejuvenated after every use.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_97HADC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are your bath care products suitable for all skin types?",
+            "icon": "check_mark",
+            "row_content": "<p>Our bath care range is designed to be gentle and effective, making it suitable for all skin types. Whether you have dry, oily, or sensitive skin, you can enjoy the benefits of our nourishing bath products.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_wLYDna": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer soap dishes and other bath accessories?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, we have a selection of beautifully crafted soap dishes and bath accessories to complement our range of products. From elegant soap dishes to exfoliating loofahs, we have everything you need for a luxurious bath experience.<\/p>",
             "page": ""
           }
         }
@@ -134,7 +152,9 @@
         "collapsible_row_ybJ8te",
         "collapsible_row_aL3XCY",
         "collapsible_row_dVCpDj",
-        "collapsible_row_gWNqzR"
+        "collapsible_row_gWNqzR",
+        "collapsible_row_97HADC",
+        "collapsible_row_wLYDna"
       ],
       "settings": {
         "caption": "",
