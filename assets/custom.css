@@ -419,6 +419,13 @@ h4 a {
   color: black !important;
 }
 
+password-modal .modal__content {
+  background: white;
+}
+password-modal .modal__content #Password {
+  background: transparent;
+}
+
 @media screen and (min-width: 750px) {
   .aleppo .multicolumn,
   .aleppo .featured-collection,

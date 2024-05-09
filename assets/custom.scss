@@ -484,6 +484,14 @@ h4 a {
   }
 }
 
+password-modal .modal__content {
+  background: white;
+
+  #Password {
+    background: transparent;
+  }
+}
+
 @media screen and (min-width: 750px) {
   .aleppo {
     .multicolumn,
