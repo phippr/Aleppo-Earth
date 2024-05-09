@@ -4,6 +4,42 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "image_mtbiLX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a992cf3c4e8a3d3e25ffe973f5673ff8.png",
+            "image_width": 100,
+            "alignment": ""
+          }
+        },
+        "link_list_7YLdAh": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
+          }
+        },
+        "brand_information_w6V3hF": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
+        "text_gFeq9X": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": "<p>©Aleppo Earth. Website by BrandWorks<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_mtbiLX",
+        "link_list_7YLdAh",
+        "brand_information_w6V3hF",
+        "text_gFeq9X"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "newsletter_enable": true,
