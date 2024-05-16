@@ -594,3 +594,34 @@ footer {
     padding: 0 5rem 5rem 5rem !important;
   }
 }
+
+@media screen and (max-width: 499px) {
+  #Banner-template--16631866065092__image_banner_PJyyJK {
+    .banner__media {
+      position: absolute !important;
+      height: 100% !important;
+    }
+
+    .banner__box img {
+      display: none !important;
+    }
+
+    .banner__box h1 {
+      font-size: 2rem !important;
+    }
+
+    .banner__box .banner__text h3 {
+      font-size: 1rem !important;
+    }
+
+    .banner__box.width-large {
+      max-width: 100% !important;
+      width: 100% !important;
+      padding: 2rem 0 !important;
+    }
+
+    .banner__content {
+      background: rgba(0, 0, 0, 0.25);
+    }
+  }
+}
