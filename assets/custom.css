@@ -449,7 +449,7 @@ password-modal .modal__content #Password {
     margin: 0 3rem 0 0;
   }
 }
-footer .aleppo .footer__content-top {
+footer .footer__content-top {
   display: flex !important;
   flex-direction: column !important;
 }
@@ -478,6 +478,12 @@ footer #footer-custom-2 {
 }
 
 @media screen and (min-width: 500px) {
+  .footer__content-top {
+    display: grid !important;
+  }
+  #footer-custom, #footer-custom-2 {
+    flex-direction: row !important;
+  }
   .aleppo .banner__box.width-small {
     width: 50% !important;
   }

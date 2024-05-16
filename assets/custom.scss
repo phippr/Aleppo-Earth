@@ -523,7 +523,7 @@ password-modal .modal__content {
   }
 }
 footer {
-  .aleppo .footer__content-top {
+  .footer__content-top {
     display: flex !important;
     flex-direction: column !important;
   }
@@ -559,6 +559,14 @@ footer {
 }
 
 @media screen and (min-width: 500px) {
+  .footer__content-top {
+    display: grid !important;
+  }
+  
+  #footer-custom, #footer-custom-2 {
+    flex-direction: row !important;
+  }
+
   .aleppo .banner__box.width-small {
     width: 50% !important;
   }
