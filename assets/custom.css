@@ -478,10 +478,11 @@ footer #footer-custom-2 {
 }
 
 @media screen and (min-width: 500px) {
-  .footer__content-top {
+  footer .footer__content-top {
     display: grid !important;
   }
-  #footer-custom, #footer-custom-2 {
+  #footer-custom,
+  footer #footer-custom-2 {
     flex-direction: row !important;
   }
   .aleppo .banner__box.width-small {
@@ -501,7 +502,7 @@ footer #footer-custom-2 {
   .aleppo .banner__content {
     padding: 5rem !important;
   }
-  .footer__content-top {
+  .aleppo .footer__content-top {
     padding: 0 5rem 5rem 5rem !important;
   }
 }/*# sourceMappingURL=custom.css.map */
