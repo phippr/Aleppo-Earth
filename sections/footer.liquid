@@ -382,6 +382,34 @@
   </div>
 </footer>
 
+<script>
+  // Function to replace logo image based on viewport width
+function replaceLogoForMobile() {
+  const viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+
+  // Check if viewport width is less than 500px
+  if (viewportWidth < 500) {
+    const logoImage = document.querySelector('.header__heading-logo');
+
+    if (logoImage) {
+      // Replace the src and srcset attributes with the mobile image URL
+      logoImage.src = 'https://cdn.shopify.com/s/files/1/0638/0827/4628/files/a992cf3c4e8a3d3e25ffe973f5673ff8.png?v=1715252860';
+      logoImage.srcset = ''; // Clear srcset to prevent loading other images
+
+      // Optionally, you may adjust width and height attributes as needed
+      logoImage.width = 210;
+      logoImage.height = 42; // Adjusted height to maintain aspect ratio
+    }
+  }
+}
+
+// Run the function initially to check viewport width on page load
+replaceLogoForMobile();
+
+// Listen for window resize event to handle changes in viewport width
+window.addEventListener('resize', replaceLogoForMobile);
+</script>
+
 {% schema %}
 {
   "name": "t:sections.footer.name",
