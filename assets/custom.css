@@ -221,7 +221,10 @@ h4 a {
 }
 .aleppo .banner__box.width-small {
   min-width: 0 !important;
-  width: 30% !important;
+  width: 100% !important;
+}
+.aleppo .banner__content {
+  padding: 1rem !important;
 }
 .aleppo .banner__box.width-medium {
   min-width: 0 !important;
@@ -441,5 +444,21 @@ password-modal .modal__content #Password {
   }
   .aleppo .image-with-text__grid--reverse .image-with-text__content {
     margin: 0 3rem 0 0;
+  }
+}
+@media screen and (min-width: 500px) {
+  .aleppo .banner__box.width-small {
+    width: 50% !important;
+  }
+  .aleppo .banner__content {
+    padding: 2rem !important;
+  }
+}
+@media screen and (min-width: 800px) {
+  .aleppo .banner__box.width-small {
+    width: 30% !important;
+  }
+  .aleppo .banner__content {
+    padding: 5rem !important;
   }
 }/*# sourceMappingURL=custom.css.map */
