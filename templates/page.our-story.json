@@ -146,6 +146,42 @@
             "row_content": "<p>Yes, we have a selection of beautifully crafted soap dishes and bath accessories to complement our range of products. From elegant soap dishes to exfoliating loofahs, we have everything you need for a luxurious bath experience.<\/p>",
             "page": ""
           }
+        },
+        "collapsible_row_8YDG3L": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Benefits",
+            "icon": "check_mark",
+            "row_content": "<p>Aleppo soap has been cherished for centuries due to its exceptional qualities derived from its ingredients. Olive oil moisturizes and nourishes the skin, while laurel berry oil purifies and disinfects.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WGEwDb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quality",
+            "icon": "check_mark",
+            "row_content": "<p>How to Identify Authentic Aleppo Soap<br\/>Origin: Ensure your Aleppo soap is made in Aleppo, Syria, not in Turkey or China.<br\/><br\/>Ingredients: Authentic Aleppo soap contains only olive oil, laurel berry oil, water, and natural soda. Avoid liquid versions with additives like EDTA, BHT, and potassium hydroxide.<br\/><br\/>Seal in Arabic: Look for a seal in Arabic indicating the manufacturer's name and origin.<br\/><br\/>Color and Scent: Genuine Aleppo soap ranges from light to dark brown with an emerald green core and has a distinctive, slightly acrid scent.<br\/><br\/>Buoyancy: Authentic Aleppo soap floats in water due to its high oil content. Test it in your bath.<br\/><br\/>Exterior Appearance: The soap should look handmade, with a rough, hand-cut exterior and air-dried texture.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9yEgYy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Composition",
+            "icon": "check_mark",
+            "row_content": "<p>Aleppo Soap is made by saponifying olive and bay laurel oils with soda, producing natural glycerin. Some salt and glycerin may remain after washing.<br\/><br\/>Available in various % of Laurel Oil:<br\/>3, 12, 20, 35, 40 & 55%.<br\/><br\/>Recommendation:<br\/>3% for normal skin<br\/>12% - 20% for sensitive skin<br\/>35% - 40% - 55% for highly sensitive, ie: skin and eczema conditions.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_GjRyMD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Commitment",
+            "icon": "check_mark",
+            "row_content": "<p>We are dedicated to eco-friendly practices and against animal exploitation. <br\/><br\/>Our products are:<br\/><br\/>Animal-Friendly: No animal testing or animal-derived ingredients. <br\/>Free From Harmful Chemicals: No parabens, ethyl alcohol, phenoxyethanol, GMOs, palm oil, petrochemicals, phthalates, micronized titanium dioxide, or lead.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -154,7 +190,11 @@
         "collapsible_row_dVCpDj",
         "collapsible_row_gWNqzR",
         "collapsible_row_97HADC",
-        "collapsible_row_wLYDna"
+        "collapsible_row_wLYDna",
+        "collapsible_row_8YDG3L",
+        "collapsible_row_WGEwDb",
+        "collapsible_row_9yEgYy",
+        "collapsible_row_GjRyMD"
       ],
       "settings": {
         "caption": "",
