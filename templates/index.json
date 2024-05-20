@@ -200,12 +200,43 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false
       }
+    },
+    "rich_text_zNqrPP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nLBUJp": {
+          "type": "heading",
+          "settings": {
+            "heading": "What makes Aleppo Earth soaps unique?",
+            "heading_size": "h1"
+          }
+        },
+        "text_8YiNrm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our soap bars are crafted using traditional methods dating back thousands of years, with ingredients sourced directly from Aleppo. Each bar is handmade with a blend of olive oil, laurel oil, soda, and water, providing gentle yet effective cleansing for all skin types.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nLBUJp",
+        "text_8YiNrm"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
     "image_banner_PJyyJK",
-    "multicolumn_cUeGpB"
+    "multicolumn_cUeGpB",
+    "rich_text_zNqrPP"
   ]
 }
