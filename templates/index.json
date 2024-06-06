@@ -150,7 +150,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/aleppo-soap-person-shampoo-scalp.jpg",
             "title": "NOURISH, CLEASE & REPEAT",
-            "text": "<p>Handmade to a blend of olive oil, laurel oil, soda, and water, providing gentle yet effective cleansing for all skin types, hair and scalp conditions. Choose from 12% Laurel oil or higher.<\/p>",
+            "text": "<p>Handmade to a blend of olive oil, laurel oil, and water, providing gentle yet effective cleansing for all skin types, hair and scalp conditions. Choose from 12% Laurel oil or higher.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -214,7 +214,7 @@
         "text_8YiNrm": {
           "type": "text",
           "settings": {
-            "text": "<p>Our soap bars are crafted using traditional methods dating back thousands of years, with ingredients sourced directly from Aleppo. Each bar is handmade with a blend of olive oil, laurel oil, soda, and water, providing gentle yet effective cleansing for all skin types.<\/p>"
+            "text": "<p>Our soap bars are crafted using traditional methods dating back thousands of years, with ingredients sourced directly from Aleppo. Each bar is handmade with a blend of olive oil, laurel oil, and water, providing gentle yet effective cleansing for all skin types.<\/p>"
           }
         }
       },
