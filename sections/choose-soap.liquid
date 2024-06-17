@@ -52,13 +52,14 @@
     grid-column: span 2;
     background-color: #ded2c6;
     margin-top: 3rem;
+    text-align: center;
   }
 
   #soap-grid #block-2 {
     margin-top: 0;
   }
 
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 1000px) {
     #soap-grid {
       grid-template-columns: auto repeat(4, 1fr);
     }
@@ -70,7 +71,6 @@
 
     #soap-grid .table-head {
       grid-column: span 1;
-      text-align: center;
       margin: 0;
     }
 
@@ -142,6 +142,7 @@
   <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {{ page.title | escape }}
   </h1>
+  <h3 style="text-align:center;">Also known as Aleppo bread, Aleppo solid soap is suitable for all skin types.</h3>
   <div class="section-{{ section.id }}-padding" style="background-color:{{ section.settings.background_colour }};">
     <div class="page-width">
 
