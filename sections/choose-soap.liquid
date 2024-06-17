@@ -12,51 +12,249 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-{%- endstyle -%}
 
-<h1>Hello World</h1>
+  #soap-grid {
+    display: grid;
+  }
+
+  #soap-grid #block-1 {
+    display: none;
+    background-color: #ded2c6;
+  }
+
+  #soap-grid .col-label {
+    border-right: 1px solid #ded2c6;
+  }
+
+  #soap-grid .grid-item {
+    padding: 1.5rem 0.75rem;
+  }
+
+  #soap-grid .grid-item h3,
+  #soap-grid .grid-item h4 {
+    margin: 0;
+  }
+
+  #soap-grid .grid-item p,
+  #soap-grid .grid-item ul {
+    margin-top: 0;
+  }
+
+  #soap-grid .table-head {
+    grid-column: span 2;
+    background-color: #ded2c6;
+    margin-top: 3rem;
+  }
+
+  #soap-grid #block-2 {
+    margin-top: 0;
+  }
+
+  @media screen and (min-width: 900px) {
+    #soap-grid {
+      grid-template-columns: auto repeat(4, 1fr);
+    }
+
+    #soap-grid #block-1 {
+      display: block;
+      order: 1;
+    }
+
+    #soap-grid .table-head {
+      grid-column: span 1;
+      text-align: center;
+      margin: 0;
+    }
+
+    #soap-grid .secondary {
+      display: none;
+    }
+
+    #soap-grid #block-2 {
+      order: 2;
+    }
+    #soap-grid #block-3 {
+      order: 3;
+    }
+    #soap-grid #block-4 {
+      order: 4;
+    }
+    #soap-grid #block-5 {
+      order: 5;
+    }
+    #soap-grid #block-6 {
+      order: 6;
+    }
+    #soap-grid #block-7 {
+      order: 7;
+    }
+    #soap-grid #block-8 {
+      order: 8;
+    }
+    #soap-grid #block-9 {
+      order: 9;
+    }
+    #soap-grid #block-10 {
+      order: 10;
+    }
+    #soap-grid #block-11 {
+      order: 11;
+    }
+    #soap-grid #block-12 {
+      order: 12;
+    }
+    #soap-grid #block-13 {
+      order: 13;
+    }
+    #soap-grid #block-14 {
+      order: 14;
+    }
+    #soap-grid #block-15 {
+      order: 15;
+    }
+    #soap-grid #block-16 {
+      order: 16;
+    }
+    #soap-grid #block-17 {
+      order: 17;
+    }
+    #soap-grid #block-18 {
+      order: 18;
+    }
+    #soap-grid #block-19 {
+      order: 19;
+    }
+    #soap-grid #block-20 {
+      order: 20;
+    }
+  }
+{%- endstyle -%}
 
 <div class="page-width section-page-title section-{{ section.id }}-padding" style="background-color:{{ section.settings.background_colour }};">
   <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {{ page.title | escape }}
   </h1>
-  <div class="section-{{ section.id }}-padding section-image-with-text" style="background-color:{{ section.settings.background_colour }};">
+  <div class="section-{{ section.id }}-padding" style="background-color:{{ section.settings.background_colour }};">
     <div class="page-width">
-      <div class="image-with-text image-with-text--{{ section.settings.content_layout }} isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == section.settings.section_color_scheme and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-        <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}" style="gap:2rem !important">
-          <div class="image-with-text__text-item grid__item">
-            <div id="ImageWithText--{{ section.id }}" class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} content-container{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}">
-              {{ page.content }}
-            </div>
-          </div>
-          <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
-            <div
-              class="image-with-text__media image-with-text__media--{{ section.settings.height }} global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}{% if section.settings.image != blank %} media{% else %} image-with-text__media--placeholder placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}"
-              {% if section.settings.height == 'adapt' and section.settings.image != blank %}
-              style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
-              {% endif %}>
-              {%- if section.settings.image != blank -%}
-                {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
-                  {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
-                  {%- capture sizes -%}
-                  (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
-                  (min-width: 750px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
-                {%- endcapture -%}
-                {%- else -%}
-                  {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
-                  {%- capture sizes -%}
-                  (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
-                  (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
-                {%- endcapture -%}
-                {%- endif -%}
-                {{
-                  section.settings.image | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                }}
-              {%- else -%}
-                {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
-              {%- endif -%}
-            </div>
-          </div>
+
+      <div id="soap-grid">
+        <div id="block-1"></div>
+        <div class="grid-item table-head" id="block-2">
+          <h3>Aleppo Soap 12% Laurel berry oil</h3>
+        </div>
+        <div class="grid-item col-label primary" id="block-6">
+          <h4>Your Skin Type</h4>
+        </div>
+        <div class="grid-item col-value" id="block-7">
+          Normal and/or sensitive skin
+        </div>
+        <div class="grid-item col-label primary" id="block-11">
+          <h4>Property</h4>
+        </div>
+        <div class="grid-item col-value" id="block-12">
+          <p>Natural ingredients, the most economical</p>
+        </div>
+        <div class="grid-item col-label primary" id="block-16">
+          <h4>Use</h4>
+        </div>
+        <div class="grid-item col-value" id="block-17">
+          <ul>
+            <li>Daily care</li>
+            <li>Hydration</li>
+            <li>Basic antiseptic</li>
+          </ul>
+        </div>
+
+        <div class="grid-item table-head" id="block-3">
+          <h3>Aleppo Soap 20% Laurel berry oil</h3>
+        </div>
+        <div class="grid-item col-label secondary">
+          <h4>Your Skin Type</h4>
+        </div>
+        <div class="grid-item col-value" id="block-8">Delicate skin</div>
+        <div class="grid-item col-label secondary">
+          <h4>Property</h4>
+        </div>
+        <div class="grid-item col-value" id="block-13">
+          <p>Laurel oil content (prevents redness and irritation)</p>
+        </div>
+        <div class="grid-item col-label secondary">
+          <h4>Use</h4>
+        </div>
+        <div class="grid-item col-value" id="block-18">
+          <ul>
+            <li>Daily care</li>
+            <li>Hydration</li>
+            <li>Active hydro-liquid protection</li>
+          </ul>
+        </div>
+
+        <div class="grid-item table-head" id="block-4">
+          <h3>Aleppo Soap 35% Laurel berry oil</h3>
+        </div>
+        <div class="grid-item col-label secondary">
+          <h4>Your Skin Type</h4>
+        </div>
+        <div class="grid-item col-value" id="block-9">
+          Sensitive and allergic skin
+        </div>
+        <div class="grid-item col-label secondary">
+          <h4>Property</h4>
+        </div>
+        <div class="grid-item col-value" id="block-14">
+          <p>For very sensitive, irritated skin.</p>
+          <p>
+            Suitable for people suffering from more serious skin problems such as 
+          psoriasis or eczema.
+          </p>
+        </div>
+        <div class="grid-item col-label secondary">
+          <h4>Use</h4>
+        </div>
+        <div class="grid-item col-value" id="block-19">
+          <ul>
+            <li>Daily care</li>
+            <li>Hydration</li>
+            <li>Active hydro-liquid protection</li>
+            <li>Soothes problem skin</li>
+            <li>Actively soothes dry skin problems</li>
+            <li>Restores the pH of the epidermis</li>
+            <li>Anti stubborn dandruff</li>
+          </ul>
+        </div>
+
+        <div class="grid-item table-head" id="block-5">
+          <h3>Aleppo Soap 40% & 55% Laurel berry oil</h3>
+        </div>
+        <div class="grid-item col-label secondary">
+          <h4>Your Skin Type</h4>
+        </div>
+        <div class="grid-item col-value" id="block-10">Hyper sensitive skin</div>
+        <div class="grid-item col-label secondary">
+          <h4>Property</h4>
+        </div>
+        <div class="grid-item col-value" id="block-15">
+          <p>For hyper sensitive, irritated skin.</p>
+          <p>
+            With its high percentage of 40% bay laurel oil, our soap is designed 
+          to provide optimal hydration and nourishment, making it suitable for
+          hypersensitive skin, suffering from acne, eczema, psoriasis, scabs,
+          dry skin, dandruff.
+          </p>
+        </div>
+        <div class="grid-item col-label secondary">
+          <h4>Use</h4>
+        </div>
+        <div class="grid-item col-value" id="block-20">
+          <ul>
+            <li>Daily care</li>
+            <li>Hydration</li>
+            <li>Active hydro-liquid protection</li>
+            <li>Soothes problem skin</li>
+            <li>Actively soothes dry skin problems</li>
+            <li>Restores the pH of the epidermis</li>
+            <li>Anti stubborn dandruff</li>
+          </ul>
         </div>
       </div>
 
