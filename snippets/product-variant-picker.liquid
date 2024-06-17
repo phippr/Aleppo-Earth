@@ -91,8 +91,10 @@
       {{ product.variants | json }}
     </script>
   </variant-selects>
-  <p>Unsure what percentage you need? Learn
-    <a href="/how-to-choose-your-aleppo-soap">how to choose your Aleppo Soap</a>.</p>
+  {% if option.name == "Laurel Oil Content" %}
+    <p>Unsure what percentage you need? Learn
+      <a href="/pages/how-to-choose-your-aleppo-soap">how to choose your Aleppo Soap here</a>.</p>
+  {% endif %}
 {%- endunless -%}
 
 <noscript class="product-form__noscript-wrapper-{{ section.id }}">
