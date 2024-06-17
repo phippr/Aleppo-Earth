@@ -1,0 +1,175 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "background_colour": "{{ shop.brand.colors.secondary[1].background }}",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_FTFaJX": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zkAp4k": {
+          "type": "heading",
+          "settings": {
+            "heading": "Aleppo Earth is committed to preserving Aleppo's timeless skin and hair care traditions by creating handmade soaps and skincare made with natural ingredients tailored to meet the needs of modern self-care.",
+            "heading_size": "h3"
+          }
+        },
+        "text_aDbBmw": {
+          "type": "text",
+          "settings": {
+            "text": "Handmade in Aleppo, Syria, our soaps adhere to EU standards and harness the healing benefits of laurel oil, a remedy rooted in centuries of tradition and modern scientific research. Experience the gentle and nourishing effects of Aleppo Earth's natural soaps, designed to address today's skin and hair concerns and harnessing the antimicrobial and anti-inflammatory efficacy of Laurel Oil for a healthier, radiant complexion and scalp.",
+            "description_size": "p"
+          }
+        }
+      },
+      "block_order": ["heading_zkAp4k", "text_aDbBmw"],
+      "settings": {
+        "background_colour": "{{ shop.brand.colors.secondary[1].background }}",
+        "colour": "#000000",
+        "image": "shopify://shop_images/hand-holding-aleppo-soap-01.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_7MzYgG": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_pUVNHF": {
+          "type": "text",
+          "settings": {
+            "text": "Founded by Lionel Loh and Lynn Koh, together they share a deep passion for the purity of natural skincare and haircare solutions. Discovering the transformative benefits of Aleppo soaps firsthand, Aleppo Earth was created to elevate the nautral beauty of your skin and hair for modern times.",
+            "description_size": "p"
+          }
+        },
+        "button_fn6gJw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore the Range",
+            "button_link": "shopify://collections/all",
+            "button_style": "outline",
+            "button_colour": "dark"
+          }
+        }
+      },
+      "block_order": ["text_pUVNHF", "button_fn6gJw"],
+      "settings": {
+        "background_colour": "{{ shop.brand.colors.secondary[1].background }}",
+        "colour": "#000000",
+        "image": "shopify://shop_images/bars-of-aleppo-soap-02.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_F6H33a": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_ybJ8te": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What makes Aleppo Earth soaps unique?",
+            "icon": "check_mark",
+            "row_content": "<p>Our soap bars are crafted using traditional methods dating back thousands of years, with ingredients sourced directly from Aleppo. Each bar is handmade with a blend of olive oil, laurel oil, soda, and water, providing gentle yet effective cleansing for all skin types.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aL3XCY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are Aleppo Earth soaps suitable for sensitive skin?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, our soap bars and gels are gentle and soothing, making them suitable for sensitive skin. The natural ingredients help to nourish and moisturize the skin, leaving it feeling soft and refreshed.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_dVCpDj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long do Aleppo Earth soap bars last?",
+            "icon": "check_mark",
+            "row_content": "<p>Our soap bars are long-lasting and will typically last for several weeks with regular use. To prolong the life of your soap bar, be sure to store it in a dry, well-drained soap dish between uses.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_gWNqzR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer bath gels in addition to soap bars?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, we have a range of luxurious bath gels infused with natural ingredients to cleanse and nourish the skin. Our bath gels are formulated to leave you feeling refreshed and rejuvenated after every use.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_97HADC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are your bath care products suitable for all skin types?",
+            "icon": "check_mark",
+            "row_content": "<p>Our bath care range is designed to be gentle and effective, making it suitable for all skin types. Whether you have dry, oily, or sensitive skin, you can enjoy the benefits of our nourishing bath products.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_wLYDna": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer soap dishes and other bath accessories?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, we have a selection of beautifully crafted soap dishes and bath accessories to complement our range of products. From elegant soap dishes to exfoliating loofahs, we have everything you need for a luxurious bath experience.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_ybJ8te",
+        "collapsible_row_aL3XCY",
+        "collapsible_row_dVCpDj",
+        "collapsible_row_gWNqzR",
+        "collapsible_row_97HADC",
+        "collapsible_row_wLYDna"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Need to know more?",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_FTFaJX",
+    "image_with_text_7MzYgG",
+    "collapsible_content_F6H33a"
+  ]
+}
