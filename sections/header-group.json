@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -8,13 +17,21 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
+            "text": "Special Launch Discount: Enjoy 15% off your purchase storewide!",
+            "link": ""
+          }
+        },
+        "announcement_Nzrnix": {
+          "type": "announcement",
+          "settings": {
             "text": "Welcome to our store",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_Nzrnix"
       ],
       "disabled": true,
       "settings": {
