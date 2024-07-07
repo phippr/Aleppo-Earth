@@ -20,20 +20,11 @@
             "text": "Special Launch Discount: Enjoy 15% off your purchase storewide!",
             "link": ""
           }
-        },
-        "announcement_Nzrnix": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "announcement_Nzrnix"
+        "announcement-bar-0"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "show_line_separator": true,
