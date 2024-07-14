@@ -46,13 +46,6 @@
           "settings": {
           }
         },
-        "text_dAx7rr": {
-          "type": "text",
-          "settings": {
-            "text": "Text block",
-            "text_style": "body"
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -67,7 +60,6 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "text_dAx7rr",
         "share"
       ],
       "settings": {
