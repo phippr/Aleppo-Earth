@@ -395,6 +395,17 @@ h4 a {
   flex-direction: column;
   align-items: flex-start;
 }
+.aleppo .footer-block__newsletter,
+.aleppo .footer__list-social {
+  margin: 0 0 0 auto !important;
+}
+.aleppo #acknowledgement {
+  margin: 0 auto;
+  width: 100%;
+  max-width: var(--page-width);
+  text-align: center;
+  padding: 0 5rem 2rem;
+}
 .aleppo #footer-custom {
   font: 500 0.75rem/1 Indivisible, Helvtica, Arial, sans-serif !important;
   text-transform: uppercase;
@@ -405,6 +416,7 @@ h4 a {
   max-width: var(--page-width);
   padding: 0 5rem;
   color: black !important;
+  margin: 0 auto;
 }
 .aleppo #footer-custom #footer-custom-1 {
   display: flex;
