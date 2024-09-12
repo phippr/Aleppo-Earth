@@ -458,6 +458,19 @@ h4 a {
     align-items: flex-start;
   }
 
+  .footer-block__newsletter,
+  .footer__list-social {
+    margin: 0 0 0 auto !important;
+  }
+
+  #acknowledgement {
+    margin: 0 auto;
+    width: 100%;
+    max-width: var(--page-width);
+    text-align: center;
+    padding: 0 5rem 2rem;
+  }
+
   #footer-custom {
     font: 500 0.75rem/1 Indivisible, Helvtica, Arial, sans-serif !important;
     text-transform: uppercase;
@@ -468,6 +481,7 @@ h4 a {
     max-width: var(--page-width);
     padding: 0 5rem;
     color: black !important;
+    margin: 0 auto;
 
     #footer-custom-1 {
       display: flex;
