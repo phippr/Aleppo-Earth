@@ -388,20 +388,28 @@
   // Function to replace logo image based on viewport width
 function replaceLogoForMobile() {
   const viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+  const logoImage = document.querySelector('.header__heading-logo');
+  const originalSrc = logoImage.src;
+  const originalSrcSet = logoImage.srcset;
+  const originalWidth = logoImage.width;
+  const originalHeight = logoImage.height;
 
   // Check if viewport width is less than 500px
   if (viewportWidth < 500) {
-    const logoImage = document.querySelector('.header__heading-logo');
-
     if (logoImage) {
       // Replace the src and srcset attributes with the mobile image URL
-      logoImage.src = 'https://cdn.shopify.com/s/files/1/0638/0827/4628/files/a992cf3c4e8a3d3e25ffe973f5673ff8.png?v=1715252860';
+      logoImage.src = 'https://cdn.shopify.com/s/files/1/0638/0827/4628/files/Adira_Earth_bfe6be4f-7f17-4ad4-ba91-520491b63faa.svg?v=1726458369';
       logoImage.srcset = ''; // Clear srcset to prevent loading other images
 
       // Optionally, you may adjust width and height attributes as needed
       logoImage.width = 210;
       logoImage.height = 42; // Adjusted height to maintain aspect ratio
     }
+  } else {
+    logoImage.src = originalSrc;
+    logoImage.srcset = originalSrcSet;
+    logoImage.width = originalWidth;
+    logoImage.height = originalHeight;
   }
 }
 
