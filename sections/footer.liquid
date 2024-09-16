@@ -389,7 +389,7 @@
 function replaceLogoForMobile() {
   const viewportWidth = window.innerWidth || document.documentElement.clientWidth;
   const logoImage = document.querySelector('.header__heading-logo');
-  const originalSrc = logoImage.src;
+  const originalSrc = 'https://adiraearth.com.au/cdn/shop/files/Adira_Earth.svg?v=1726135329&width=600';
   const originalSrcSet = logoImage.srcset;
   const originalWidth = logoImage.width;
   const originalHeight = logoImage.height;
@@ -410,9 +410,6 @@ function replaceLogoForMobile() {
     }
   } else {
     logoImage.src = originalSrc;
-    logoImage.srcset = originalSrcSet;
-    logoImage.width = originalWidth;
-    logoImage.height = originalHeight;
   }
 }
 
