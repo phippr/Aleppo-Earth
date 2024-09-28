@@ -30,11 +30,11 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Discover the Range",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_1": "outline",
             "button_colour_1": "light",
             "button_label_2": "",
-            "button_link_2": "shopify:\/\/pages\/contact",
+            "button_link_2": "shopify://pages/contact",
             "button_style_2": "outline",
             "button_colour_2": "light"
           }
@@ -46,7 +46,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/hero.jpg",
+        "image": "shopify://shop_images/hero.jpg",
         "image_overlay_opacity": 20,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -72,7 +72,7 @@
         "collection": "frontpage",
         "products_to_show": 8,
         "button_label": "Explore The Range",
-        "button_link": "shopify:\/\/collections\/all",
+        "button_link": "shopify://collections/all",
         "button_style": "outline",
         "columns_desktop": 3,
         "full_width": false,
@@ -97,7 +97,7 @@
           "settings": {
             "heading": "Nurturing Tradition, Embracing Wellness",
             "heading_size": "h1",
-            "icon": "shopify:\/\/shop_images\/icon.png"
+            "icon": "shopify://shop_images/icon.png"
           }
         },
         "text_ar6Hcr": {
@@ -127,7 +127,7 @@
         "buttons_mxmTcr"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/story_bg.jpg",
+        "image": "shopify://shop_images/story_bg.jpg",
         "image_overlay_opacity": 50,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -147,9 +147,9 @@
         "column_DRcQmP": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/olive-fresh-from-tree-natural-ingredient.jpg",
+            "image": "shopify://shop_images/olive-fresh-from-tree-natural-ingredient.jpg",
             "title": "Radiate Beyond",
-            "text": "<p>Inspired by centuries-old traditions, passed down through generations in the ancient city of Aleppo, we believe in the power of nature, sourcing only the finest, earth-enriched ingredients for our range of soaps.<\/p>",
+            "text": "<p>Inspired by centuries-old traditions, passed down through generations in the ancient city of Aleppo, we believe in the power of nature, sourcing only the finest, earth-enriched ingredients for our range of soaps.</p>",
             "link_label": "",
             "link": ""
           }
@@ -157,9 +157,9 @@
         "column_TFfAme": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/aleppo-soap-person-shampoo-scalp.jpg",
+            "image": "shopify://shop_images/aleppo-soap-person-shampoo-scalp.jpg",
             "title": "NOURISH, CLEANSE & REPEAT",
-            "text": "<p>Handmade to a blend of olive oil, laurel oil, and water, providing gentle yet effective cleansing for all skin types, hair and scalp conditions. Choose from 12% Laurel oil or higher.<\/p>",
+            "text": "<p>Handmade to a blend of olive oil, laurel oil, and water, providing gentle yet effective cleansing for all skin types, hair and scalp conditions. Choose from 12% Laurel oil or higher.</p>",
             "link_label": "",
             "link": ""
           }
@@ -167,9 +167,9 @@
         "column_pRG6bf": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/person-getting-bathe-natural-ingredients.jpg",
+            "image": "shopify://shop_images/person-getting-bathe-natural-ingredients.jpg",
             "title": "HIT REFRESH",
-            "text": "<p>Revitalise your Routine. Our range of premium gels are infused with natural ingredients to gently cleanse and nourish the skin, formulated with 35% and 55% Laurel oil to leave you feeling refreshed and rejuvenated. Perfect for the shower or bath.<\/p>",
+            "text": "<p>Revitalise your Routine. Our range of premium gels are infused with natural ingredients to gently cleanse and nourish the skin, formulated with 35% and 55% Laurel oil to leave you feeling refreshed and rejuvenated. Perfect for the shower or bath.</p>",
             "link_label": "",
             "link": ""
           }
@@ -177,9 +177,9 @@
         "column_RFGaaY": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bars-of-aleppo-soap-05_4bd9adc7-7d96-412d-9085-b143dec6fad2.jpg",
+            "image": "shopify://shop_images/bars-of-aleppo-soap-05_4bd9adc7-7d96-412d-9085-b143dec6fad2.jpg",
             "title": "PAMPER DAILY",
-            "text": "<p>Our shower and bath amenity range are a perfect pairing to Aleppo Earth's soaps and gels. Made from sustainably-sourced materials.<\/p>",
+            "text": "<p>Our shower and bath amenity range are a perfect pairing to Aleppo Earth's soaps and gels. Made from sustainably-sourced materials.</p>",
             "link_label": "",
             "link": ""
           }
@@ -204,7 +204,7 @@
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Explore the Range",
-        "button_link": "shopify:\/\/collections\/all",
+        "button_link": "shopify://collections/all",
         "button_style": "outline",
         "columns_mobile": "2",
         "swipe_on_mobile": false
@@ -223,7 +223,7 @@
         "text_8YiNrm": {
           "type": "text",
           "settings": {
-            "text": "<p>Our soaps are authentic, eco-friendly & vegan-friendly, imported from France and made in compliance with European quality standards. All soap products are dermatologically tested. Unsure what percentage you need? Learn <a href=\"\/pages\/how-to-choose-your-aleppo-soap\" title=\"How to choose your Aleppo Soap\">how to choose your Aleppo Soap here<\/a>.<\/p>"
+            "text": "<p>Our soaps are authentic, eco-friendly and vegan friendly -  handcrafted in Aleppo and imported from France, meeting stringent European quality standards. Every product is dermatologically tested. Need help determining the right percentage for you?<br/>Learn <a href=\"/pages/how-to-choose-your-aleppo-soap\" title=\"How to choose your Aleppo Soap\">how to choose your Aleppo Soap here</a>.</p>"
           }
         }
       },
@@ -244,7 +244,7 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_featured_carousel_gJaehw": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1080
           }
