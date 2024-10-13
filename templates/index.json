@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -96,7 +96,7 @@
           "type": "heading",
           "settings": {
             "heading": "Nurturing Tradition, Embracing Wellness",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "icon": "shopify://shop_images/icon.png"
           }
         },
@@ -104,7 +104,7 @@
           "type": "text",
           "settings": {
             "text": "We are passionate about preserving the ancient traditions of Aleppo while promoting holistic well-being for all. With a commitment to authenticity and sustainability, we source the finest natural ingredients to create products that nourish both body and soul. Join us on a journey to rediscover the wisdom of the past and embrace a healthier, more balanced self.",
-            "description_size": "h3"
+            "description_size": "h4"
           }
         },
         "buttons_mxmTcr": {
