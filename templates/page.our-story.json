@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -42,7 +42,7 @@
       "settings": {
         "background_colour": "{{ shop.brand.colors.secondary[1].background }}",
         "colour": "#000000",
-        "image": "shopify:\/\/shop_images\/hand-holding-aleppo-soap-01.jpg",
+        "image": "shopify://shop_images/hand-holding-aleppo-soap-01.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -63,7 +63,7 @@
         "text_pUVNHF": {
           "type": "text",
           "settings": {
-            "text": "Founded by a team with a deep passion for pure natural skincare and haircare solutions, Adira Earth emerged from firsthand experiences with the transformative benefits of Aleppo soaps. Created to enhance the natural beauty of your skin and hair for modern times.",
+            "text": "Welcome to Adira Earth! We are a small family based in Melbourne, dedicated to sharing the transformative power of natural skincare. Our journey began after the COVID vaccination when I noticed a significant shift in my immunity. Suddenly, my skin became hyper-sensitive to many products, leading to frequent outbreaks of hives, eczema, and rashes.Frustrated with standard medical visits, where doctors often prescribed steroid creams that only thinned my skin, I felt lost and desperate for relief. One day, a dear friend returned from France and gifted me an all-natural Aleppo soap. At first, I was skeptical—how could a simple bar of soap help when so many products had failed me? But after trying countless soap-free options that didn’t ease my itch and redness, I figured it was worth a shot, especially since it contained just four natural ingredients.To my surprise, after just a few days of using the Aleppo soap, my skin felt less itchy, and the redness began to subside. After two weeks, I found myself using steroid creams less frequently, and by the end of the month, I was significantly less dependent on them. It was a game changer!This experience sparked my curiosity, and I dove deep into research about natural skincare products. I discovered that Aleppo soap is ultra-nourishing and moisturizing, making it a fantastic choice for all skin types. It’s so gentle and effective that it can cater to different skin needs by varying the percentage of laurel oil. It’s gentle enough to be used on babies while being effective for problem skin conditions like dermatitis and psoriasis.Fast forward two years, and I knew I had to share this incredible soap with others in Australia. I understood firsthand the struggles many people face when dealing with skin conditions, and I wanted to show them that there are gentler, chemical-free alternatives available.At Adira Earth, we are committed to helping those who, like me, are searching for effective solutions to their skin challenges. We believe in the power of natural ingredients and are passionate about providing products that are safe, ultra-nourishing, and beneficial for everyone. Thank you for joining us on this journey to healthier skin!",
             "description_size": "p"
           }
         },
@@ -71,7 +71,7 @@
           "type": "button",
           "settings": {
             "button_label": "Explore the Range",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_style": "outline",
             "button_colour": "dark"
           }
@@ -84,7 +84,7 @@
       "settings": {
         "background_colour": "{{ shop.brand.colors.secondary[1].background }}",
         "colour": "#000000",
-        "image": "shopify:\/\/shop_images\/bars-of-aleppo-soap-02.jpg",
+        "image": "shopify://shop_images/bars-of-aleppo-soap-02.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -113,7 +113,7 @@
           "type": "button",
           "settings": {
             "button_label": "Explore the Range",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_style": "outline",
             "button_colour": "dark"
           }
@@ -126,7 +126,7 @@
       "settings": {
         "background_colour": "rgba(0,0,0,0)",
         "colour": "#000000",
-        "image": "shopify:\/\/shop_images\/Aleppo_soap_with_packaging.jpg",
+        "image": "shopify://shop_images/Aleppo_soap_with_packaging.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -149,7 +149,7 @@
           "settings": {
             "heading": "What makes Adira Earth soaps unique?",
             "icon": "check_mark",
-            "row_content": "<p>Our soap bars are crafted using traditional methods dating back thousands of years, featuring sustainably sourced ingredients directly from renowned coastal areas. Each bar is handmade with a blend of olive oil, laurel oil, and water, providing gentle yet effective cleansing for all skin types.<\/p>",
+            "row_content": "<p>Our soap bars are crafted using traditional methods dating back thousands of years, featuring sustainably sourced ingredients directly from renowned coastal areas. Each bar is handmade with a blend of olive oil, laurel oil, and water, providing gentle yet effective cleansing for all skin types.</p>",
             "page": ""
           }
         },
@@ -158,7 +158,7 @@
           "settings": {
             "heading": "Are Adira Earth soaps suitable for sensitive skin?",
             "icon": "check_mark",
-            "row_content": "<p>Yes, our soap bars and gels are gentle and soothing, making them suitable for sensitive skin. The natural ingredients help to nourish and moisturize the skin, leaving it feeling soft and refreshed.<\/p>",
+            "row_content": "<p>Yes, our soap bars and gels are gentle and soothing, making them suitable for sensitive skin. The natural ingredients help to nourish and moisturize the skin, leaving it feeling soft and refreshed.</p>",
             "page": ""
           }
         },
@@ -167,7 +167,7 @@
           "settings": {
             "heading": "How long do Adira Earth soap bars last?",
             "icon": "check_mark",
-            "row_content": "<p>Our soap bars are long-lasting and will typically last for several weeks with regular use. To prolong the life of your soap bar, be sure to store it in a dry, well-drained soap dish between uses.<\/p>",
+            "row_content": "<p>Our soap bars are long-lasting and will typically last for several weeks with regular use. To prolong the life of your soap bar, be sure to store it in a dry, well-drained soap dish between uses.</p>",
             "page": ""
           }
         },
@@ -176,7 +176,7 @@
           "settings": {
             "heading": "Do you offer bath gels in addition to soap bars?",
             "icon": "check_mark",
-            "row_content": "<p>Yes, we have a range of luxurious bath gels infused with natural ingredients to cleanse and nourish the skin. Our bath gels are formulated to leave you feeling refreshed and rejuvenated after every use.<\/p>",
+            "row_content": "<p>Yes, we have a range of luxurious bath gels infused with natural ingredients to cleanse and nourish the skin. Our bath gels are formulated to leave you feeling refreshed and rejuvenated after every use.</p>",
             "page": ""
           }
         },
@@ -185,7 +185,7 @@
           "settings": {
             "heading": "Are your bath care products suitable for all skin types?",
             "icon": "check_mark",
-            "row_content": "<p>Our bath care range is designed to be gentle and effective, making it suitable for all skin types. Whether you have dry, oily, or sensitive skin, you can enjoy the benefits of our nourishing bath products.<\/p>",
+            "row_content": "<p>Our bath care range is designed to be gentle and effective, making it suitable for all skin types. Whether you have dry, oily, or sensitive skin, you can enjoy the benefits of our nourishing bath products.</p>",
             "page": ""
           }
         },
@@ -194,7 +194,7 @@
           "settings": {
             "heading": "Do you offer other bath accessories?",
             "icon": "check_mark",
-            "row_content": "<p>Yes, we offer our sustainably-sourced, high-quality Sisal Double Face loofah, ensuring a natural bath experience. Additionally, we're actively exploring more bath accessories to elevate your bathing routine even further.<\/p>",
+            "row_content": "<p>Yes, we offer our sustainably-sourced, high-quality Sisal Double Face loofah, ensuring a natural bath experience. Additionally, we're actively exploring more bath accessories to elevate your bathing routine even further.</p>",
             "page": ""
           }
         },
@@ -203,7 +203,7 @@
           "settings": {
             "heading": "Benefits",
             "icon": "check_mark",
-            "row_content": "<p>For centuries, Aleppo soap has been revered for its exceptional qualities rooted in its ingredients. Olive oil deeply moisturizes and nourishes the skin, while laurel oil, known for its anti-inflammatory properties, soothes irritation, reduces redness, and alleviates puffiness. Crafted in the traditional Aleppo style, this soap is a gentle option for individuals with sensitive or inflamed skin, offering a time-honored remedy for skincare needs.<\/p>",
+            "row_content": "<p>For centuries, Aleppo soap has been revered for its exceptional qualities rooted in its ingredients. Olive oil deeply moisturizes and nourishes the skin, while laurel oil, known for its anti-inflammatory properties, soothes irritation, reduces redness, and alleviates puffiness. Crafted in the traditional Aleppo style, this soap is a gentle option for individuals with sensitive or inflamed skin, offering a time-honored remedy for skincare needs.</p>",
             "page": ""
           }
         },
@@ -212,7 +212,7 @@
           "settings": {
             "heading": "Quality",
             "icon": "check_mark",
-            "row_content": "<p>Ingredients: Authentic Aleppo soap contains only olive oil, laurel oil, and water. Avoid liquid versions with additives like EDTA, BHT, and potassium hydroxide.<br\/><br\/>Color and Scent: Genuine Aleppo soap ranges from light to dark brown with an emerald green core and has a distinctive, slightly acrid scent.<br\/><br\/>Buoyancy: Authentic Aleppo soap floats in water due to its high oil content. Test it in your bath.<br\/><br\/>Exterior Appearance: The soap should look handmade, with a rough, hand-cut exterior and air-dried texture.<\/p>",
+            "row_content": "<p>Ingredients: Authentic Aleppo soap contains only olive oil, laurel oil, and water. Avoid liquid versions with additives like EDTA, BHT, and potassium hydroxide.<br/><br/>Color and Scent: Genuine Aleppo soap ranges from light to dark brown with an emerald green core and has a distinctive, slightly acrid scent.<br/><br/>Buoyancy: Authentic Aleppo soap floats in water due to its high oil content. Test it in your bath.<br/><br/>Exterior Appearance: The soap should look handmade, with a rough, hand-cut exterior and air-dried texture.</p>",
             "page": ""
           }
         },
@@ -221,7 +221,7 @@
           "settings": {
             "heading": "Composition",
             "icon": "check_mark",
-            "row_content": "<p>Aleppo Soap is made by saponifying olive and bay laurel oils, producing natural glycerin. Some salt and glycerin may remain after washing.<br\/><br\/>Available in various % of Laurel Oil:<br\/>12%, 16%, 20%, 35%, 40% & 55%.<br\/><br\/>Recommendation:<br\/><strong>12% Laurel Oil:<\/strong>Ideal for normal skin<br\/><strong>16% | 20% | 35% Laurel Oil: <\/strong>Perfect for sensitive skin<br\/><strong>40% | 55%  Laurel Oil: <\/strong>Best for highly sensitive skin and eczema conditions<\/p>",
+            "row_content": "<p>Aleppo Soap is made by saponifying olive and bay laurel oils, producing natural glycerin. Some salt and glycerin may remain after washing.<br/><br/>Available in various % of Laurel Oil:<br/>12%, 16%, 20%, 35%, 40% & 55%.<br/><br/>Recommendation:<br/><strong>12% Laurel Oil:</strong>Ideal for normal skin<br/><strong>16% | 20% | 35% Laurel Oil: </strong>Perfect for sensitive skin<br/><strong>40% | 55%  Laurel Oil: </strong>Best for highly sensitive skin and eczema conditions</p>",
             "page": ""
           }
         },
@@ -230,7 +230,7 @@
           "settings": {
             "heading": "Commitment",
             "icon": "check_mark",
-            "row_content": "<p>We are dedicated to eco-friendly practices and against animal exploitation. <br\/><br\/>Our products are:<br\/><br\/>Animal-Friendly: No animal testing or animal-derived ingredients. <br\/>Free From Harmful Chemicals: No parabens, ethyl alcohol, phenoxyethanol, GMOs, palm oil, petrochemicals, phthalates, micronized titanium dioxide, or lead.<\/p>",
+            "row_content": "<p>We are dedicated to eco-friendly practices and against animal exploitation. <br/><br/>Our products are:<br/><br/>Animal-Friendly: No animal testing or animal-derived ingredients. <br/>Free From Harmful Chemicals: No parabens, ethyl alcohol, phenoxyethanol, GMOs, palm oil, petrochemicals, phthalates, micronized titanium dioxide, or lead.</p>",
             "page": ""
           }
         }
