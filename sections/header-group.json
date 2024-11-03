@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Aleppo Earth is now Adira Earth! As we grow and expand, our name reflects our commitment to bringing you even more exceptional, traditional treasures from around the world. Same great quality, fresh new name! Enjoy 25% discount of the original packaging. Use code \"AleppotoAdira\"",
+            "text": "Aleppo Earth is now Adira Earth! As we grow and expand, our name reflects our commitment to bringing you even more exceptional, traditional treasures from around the world. Same great quality, fresh new name!",
             "link": "shopify://collections/all"
           }
         }
