@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Get FREE Shipping on Orders Over $99!",
+            "text": "Get FREE Shipping on Orders Over $105",
             "link": "shopify://collections/all"
           }
         }
