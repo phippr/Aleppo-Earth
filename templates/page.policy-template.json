@@ -1,10 +1,22 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-policy-template",
+      "custom_css": [
+        "img {position: relative;}"
+      ],
       "settings": {
-        "background_colour": "transparent",
-        "image": "shopify:\/\/shop_images\/hand-holding-aleppo-soap-03_4ca4fe67-3f90-4865-8bf5-7d9cb38453f3.jpg",
+        "background_colour": "rgba(0,0,0,0)",
+        "image": "shopify://shop_images/hand-holding-aleppo-soap-03_4ca4fe67-3f90-4865-8bf5-7d9cb38453f3.jpg",
         "padding_top": 28,
         "padding_bottom": 28
       }
