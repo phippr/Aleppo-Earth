@@ -149,7 +149,7 @@
           "settings": {
             "image": "shopify://shop_images/olive-fresh-from-tree-natural-ingredient.jpg",
             "title": "Radiate Beyond",
-            "text": "<p>Inspired by centuries-old traditions, passed down through generations in the ancient city of Aleppo, we believe in the power of nature, sourcing only the finest, earth-enriched ingredients for our range of soaps.</p>",
+            "text": "<p>Inspired by centuries-old traditions from Aleppo, we believe in the power of nature to restore and nourish. Our products are carefully sourced with earth-enriched ingredients to bring timeless care into your everyday rituals.<br/><br/></p>",
             "link_label": "",
             "link": ""
           }
@@ -159,7 +159,7 @@
           "settings": {
             "image": "shopify://shop_images/aleppo-soap-person-shampoo-scalp.jpg",
             "title": "NOURISH, CLEANSE & REPEAT",
-            "text": "<p>Handmade to a blend of olive oil, laurel oil, and water, providing gentle yet effective cleansing for all skin types, hair and scalp conditions. Choose from 12% Laurel oil or higher.</p>",
+            "text": "<p>Handmade to a blend of olive oil, laurel oil, and water, providing gentle yet effective cleansing for all skin types, including sensitive and eczema-prone skin.  hair and scalp conditions. Available in varying strengths to suit your skin's needs.</p>",
             "link_label": "",
             "link": ""
           }
@@ -167,9 +167,9 @@
         "column_pRG6bf": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/person-getting-bathe-natural-ingredients.jpg",
-            "title": "HIT REFRESH",
-            "text": "<p>Revitalise your Routine. Our range of premium gels are infused with natural ingredients to gently cleanse and nourish the skin, formulated with 35% and 55% Laurel oil to leave you feeling refreshed and rejuvenated. Perfect for the shower or bath.</p>",
+            "image": "shopify://shop_images/turkish_towel_tile.png",
+            "title": "Wrap Yourself in Tradition",
+            "text": "<p>Hand-loomed in Turkey using traditional weaving techniques, our Turkish towels bring heritage, comfort, and effortless beauty to your daily rituals.</p>",
             "link_label": "",
             "link": ""
           }
@@ -196,7 +196,7 @@
         "title": "Natural Glow",
         "colour": "#000000",
         "heading_size": "h2",
-        "description": "Transform Your Routine with Aleppo Soap",
+        "description": "Curated Rituals for Skin, Body & Home — Inspired by Tradition",
         "description_size": "p",
         "image_width": "full",
         "image_ratio": "adapt",
