@@ -72,7 +72,7 @@
         "collection": "frontpage",
         "products_to_show": 8,
         "button_label": "Explore The Range",
-        "button_link": "shopify://collections/all",
+        "button_link": "shopify://collections/aleppo-soap",
         "button_style": "outline",
         "columns_desktop": 3,
         "full_width": false,
