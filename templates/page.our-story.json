@@ -71,7 +71,7 @@
           "type": "button",
           "settings": {
             "button_label": "Explore the Range",
-            "button_link": "shopify://collections/all",
+            "button_link": "shopify://collections/aleppo-soap",
             "button_style": "outline",
             "button_colour": "dark"
           }
