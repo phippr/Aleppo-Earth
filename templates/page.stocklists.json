@@ -13,8 +13,8 @@
       "type": "main-page",
       "custom_css": [
         "h2 {font-size: 30px;}",
-        "p, li {font-size: 16px; line-height: 1.7;}",
         "h3 {font-size: 21px; line-height: 1.4;}",
+        "p, li {font-size: 16px; line-height: 1.7;}",
         "ul {margin-bottom: 20px;}"
       ],
       "settings": {
