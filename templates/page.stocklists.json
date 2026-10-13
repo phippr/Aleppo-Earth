@@ -11,7 +11,14 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "custom_css": [
+        "h2 {font-size: 30px;}",
+        "p, li {font-size: 16px; line-height: 1.7;}",
+        "h3 {font-size: 21px; line-height: 1.4;}",
+        "ul {margin-bottom: 20px;}"
+      ],
       "settings": {
+        "background_colour": "rgba(0,0,0,0)",
         "padding_top": 28,
         "padding_bottom": 28
       }
